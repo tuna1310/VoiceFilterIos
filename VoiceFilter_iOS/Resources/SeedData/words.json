@@ -1,0 +1,6752 @@
+[
+  {
+    "id": "colors_b_001",
+    "word": "Red",
+    "phonetic": "/rɛd/",
+    "tip": "Nhấn R uốn lưỡi, bật D nhẹ cuối từ",
+    "level": "basic",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_b_002",
+    "word": "Blue",
+    "phonetic": "/bluː/",
+    "tip": "Nối B và L liền mạch, kéo dài âm U",
+    "level": "basic",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_b_003",
+    "word": "Green",
+    "phonetic": "/ɡriːn/",
+    "tip": "Bật G nhẹ, kéo dài I và kết thúc N",
+    "level": "basic",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_b_004",
+    "word": "Black",
+    "phonetic": "/blæk/",
+    "tip": "Âm A bẹt mở rộng miệng, bật K",
+    "level": "basic",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_b_005",
+    "word": "White",
+    "phonetic": "/waɪt/",
+    "tip": "Âm W tròn môi, nguyên âm AI, bật T",
+    "level": "basic",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_b_006",
+    "word": "Yellow",
+    "phonetic": "/ˈjɛl.oʊ/",
+    "tip": "Nhấn âm đầu YEL, kết thúc âm OU",
+    "level": "basic",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_b_007",
+    "word": "Pink",
+    "phonetic": "/pɪŋk/",
+    "tip": "Bật hơi P mạnh, âm đuôi NG và K",
+    "level": "basic",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_b_008",
+    "word": "Brown",
+    "phonetic": "/braʊn/",
+    "tip": "Nguyên âm đôi AW, khép lưỡi âm N",
+    "level": "basic",
+    "subject": "colors",
+    "banner": "file:///android_asset/banners/banner_colors_brown.webp",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_b_009",
+    "word": "Gray",
+    "phonetic": "/ɡreɪ/",
+    "tip": "Bắt đầu GR, nguyên âm đôi EI kéo dài",
+    "level": "basic",
+    "subject": "colors",
+    "accepted_variants": [
+      "grey"
+    ],
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "colors_b_010",
+    "word": "Orange",
+    "phonetic": "/ˈɔːr.ɪndʒ/",
+    "tip": "Nhấn OR, kết thúc âm DGE rung vòm",
+    "level": "basic",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_b_011",
+    "word": "Purple",
+    "phonetic": "/ˈpɜːr.pəl/",
+    "tip": "Âm ER uốn lưỡi, âm đuôi PULL nhẹ",
+    "level": "basic",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_b_012",
+    "word": "Gold",
+    "phonetic": "/ɡoʊld/",
+    "tip": "Nguyên âm OU, kết thúc âm L và D",
+    "level": "basic",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_b_013",
+    "word": "Silver",
+    "phonetic": "/ˈsɪl.vər/",
+    "tip": "Nhấn SIL, âm đuôi VER uốn nhẹ",
+    "level": "basic",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_b_014",
+    "word": "Beige",
+    "phonetic": "/beɪʒ/",
+    "tip": "Nguyên âm EI, kết thúc ZHE rung",
+    "level": "basic",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_b_015",
+    "word": "Navy",
+    "phonetic": "/ˈneɪ.vi/",
+    "tip": "Nhấn NAY, âm VI phát nhẹ",
+    "level": "basic",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_i_016",
+    "word": "Crimson",
+    "phonetic": "/ˈkrɪm.zən/",
+    "tip": "Nhấn CRIM, âm S đọc thành Z nhẹ",
+    "level": "medium",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_i_017",
+    "word": "Cyan",
+    "phonetic": "/ˈsaɪ.æn/",
+    "tip": "Bắt đầu SAI, âm AN mở miệng rộng",
+    "level": "medium",
+    "subject": "colors",
+    "banner": "file:///android_asset/banners/banner_colors_turquoise.webp",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_i_018",
+    "word": "Magenta",
+    "phonetic": "/məˈdʒɛn.tə/",
+    "tip": "Âm MA lướt, nhấn JEN, đuôi TUH",
+    "level": "medium",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_i_019",
+    "word": "Indigo",
+    "phonetic": "/ˈɪn.dɪ.ɡoʊ/",
+    "tip": "Nhấn IN, âm DI nhẹ, kết thúc GOU",
+    "level": "medium",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_i_020",
+    "word": "Violet",
+    "phonetic": "/ˈvaɪə.lət/",
+    "tip": "Nhấn VAI, đuôi LUHT dứt khoát",
+    "level": "medium",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_i_021",
+    "word": "Teal",
+    "phonetic": "/tiːl/",
+    "tip": "Kéo dài TEE, cong lưỡi âm L",
+    "level": "medium",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_i_022",
+    "word": "Amber",
+    "phonetic": "/ˈæm.bər/",
+    "tip": "Âm A bẹt nhấn mạnh, đuôi BUR uốn lưỡi",
+    "level": "medium",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_i_023",
+    "word": "Maroon",
+    "phonetic": "/məˈruːn/",
+    "tip": "Âm MUH lướt, nhấn mạnh ROON",
+    "level": "medium",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_i_024",
+    "word": "Olive",
+    "phonetic": "/ˈɒl.ɪv/",
+    "tip": "Nhấn OL, kết thúc âm IV nhẹ",
+    "level": "medium",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_i_025",
+    "word": "Coral",
+    "phonetic": "/ˈkɔːr.əl/",
+    "tip": "Nhấn COR, kết thúc âm UHL",
+    "level": "medium",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_i_026",
+    "word": "Peach",
+    "phonetic": "/piːtʃ/",
+    "tip": "Kéo dài âm EE, bật mạnh CH ở cuối",
+    "level": "medium",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_i_027",
+    "word": "Lavender",
+    "phonetic": "/ˈlæv.ən.dər/",
+    "tip": "Nhấn LAV, kết thúc DER nhẹ",
+    "level": "medium",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_i_028",
+    "word": "Charcoal",
+    "phonetic": "/ˈtʃɑːr.koʊl/",
+    "tip": "Bật CH, nhấn CHAR, đuôi COAL",
+    "level": "medium",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_i_029",
+    "word": "Bronze",
+    "phonetic": "/brɒnz/",
+    "tip": "Bắt đầu BR, kết thúc bằng NZ rung",
+    "level": "medium",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_i_030",
+    "word": "Emerald",
+    "phonetic": "/ˈɛm.ər.əld/",
+    "tip": "Nhấn EM, đuôi UHLD dứt khoát",
+    "level": "medium",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_e_031",
+    "word": "Turquoise",
+    "phonetic": "/ˈtɜːr.kɔɪz/",
+    "tip": "Nhấn TUR uốn lưỡi, âm đuôi KOIZ",
+    "level": "advanced",
+    "subject": "colors",
+    "banner": "file:///android_asset/banners/banner_colors_turquoise.webp",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_e_032",
+    "word": "Chartreuse",
+    "phonetic": "/ʃɑːrˈtrɜːz/",
+    "tip": "Bắt đầu SHAR, âm TR uốn lưỡi sâu",
+    "level": "advanced",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_e_033",
+    "word": "Vermilion",
+    "phonetic": "/vərˈmɪl.jən/",
+    "tip": "Nhấn MIL, kết thúc YUHN",
+    "level": "advanced",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_e_034",
+    "word": "Ultramarine",
+    "phonetic": "/ˌʌl.trəməˈriːn/",
+    "tip": "Nhấn chính REEN, kéo dài âm",
+    "level": "advanced",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_e_035",
+    "word": "Cerulean",
+    "phonetic": "/səˈruː.li.ən/",
+    "tip": "Nhấn ROO, phát âm mềm mại",
+    "level": "advanced",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_e_036",
+    "word": "Auburn",
+    "phonetic": "/ˈɔː.bərn/",
+    "tip": "Nhấn AW, đuôi BURN uốn lưỡi có N",
+    "level": "advanced",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_e_037",
+    "word": "Ochre",
+    "phonetic": "/ˈoʊ.kər/",
+    "tip": "Nguyên âm OU, kết thúc bằng KUR",
+    "level": "advanced",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_e_038",
+    "word": "Fuchsia",
+    "phonetic": "/ˈfjuː.ʃə/",
+    "tip": "Bắt đầu FEW, đuôi SHUH mềm",
+    "level": "advanced",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_e_039",
+    "word": "Periwinkle",
+    "phonetic": "/ˈpɛr.ɪˌwɪŋ.kəl/",
+    "tip": "Nhấn PER, đuôi WINKLE dứt khoát",
+    "level": "advanced",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_e_040",
+    "word": "Burgundy",
+    "phonetic": "/ˈbɜːr.ɡən.di/",
+    "tip": "Nhấn BUR, hai âm sau đọc lướt",
+    "level": "advanced",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_e_041",
+    "word": "Tangerine",
+    "phonetic": "/ˌtæn.dʒəˈriːn/",
+    "tip": "Nhấn chính vào REEN cuối từ",
+    "level": "advanced",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_e_042",
+    "word": "Anthracite",
+    "phonetic": "/ˈæn.θrəˌsaɪt/",
+    "tip": "Âm TH thè lưỡi, đuôi SAIT bật T",
+    "level": "advanced",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_e_043",
+    "word": "Iridescent",
+    "phonetic": "/ˌɪr.ɪˈdɛs.ənt/",
+    "tip": "Nhấn DES, kết thúc âm NT nhẹ",
+    "level": "advanced",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_e_044",
+    "word": "Mahogany",
+    "phonetic": "/məˈhɒɡ.ə.ni/",
+    "tip": "Âm MUH lướt, nhấn mạnh HOG",
+    "level": "advanced",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "colors_e_045",
+    "word": "Saffron",
+    "phonetic": "/ˈsæf.rən/",
+    "tip": "Nhấn SAF, kết thúc âm RUHN nhẹ",
+    "level": "advanced",
+    "subject": "colors",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_b_046",
+    "word": "Ford",
+    "phonetic": "/fɔːrd/",
+    "tip": "Âm F bật môi răng, uốn lưỡi RD",
+    "level": "basic",
+    "subject": "car_brands",
+    "banner": "file:///android_asset/banners/banner_car_brands_ford.webp",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_b_047",
+    "word": "Tesla",
+    "phonetic": "/ˈtɛs.lə/",
+    "tip": "Nhấn TES dứt khoát, đuôi LAH nhẹ",
+    "level": "basic",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_b_048",
+    "word": "Honda",
+    "phonetic": "/ˈhɒn.də/",
+    "tip": "Nhấn HON, kết thúc DUH mềm",
+    "level": "basic",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_b_049",
+    "word": "Audi",
+    "phonetic": "/ˈaʊ.di/",
+    "tip": "Nguyên âm đôi OW, đuôi DEE rõ nét",
+    "level": "basic",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_b_050",
+    "word": "Kia",
+    "phonetic": "/ˈkiː.ə/",
+    "tip": "Âm KEE kéo dài, kết thúc UH lướt",
+    "level": "basic",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_b_051",
+    "word": "Jeep",
+    "phonetic": "/dʒiːp/",
+    "tip": "Bật âm J mạnh, kéo dài EE, ngậm P",
+    "level": "basic",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_b_052",
+    "word": "Nissan",
+    "phonetic": "/ˈniː.sæn/",
+    "tip": "Nhấn NEE, âm SAN mở rộng miệng",
+    "level": "basic",
+    "subject": "car_brands",
+    "banner": "file:///android_asset/banners/banner_car_brands_nissan.webp",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_b_053",
+    "word": "Toyota",
+    "phonetic": "/tɔɪˈoʊ.tə/",
+    "tip": "Bắt đầu TOY, nhấn OH, đuôi TUH",
+    "level": "basic",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_b_054",
+    "word": "Volvo",
+    "phonetic": "/ˈvɒl.voʊ/",
+    "tip": "Nhấn VOL cong lưỡi, đuôi VOU",
+    "level": "basic",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_b_055",
+    "word": "Mazda",
+    "phonetic": "/ˈmæz.də/",
+    "tip": "Nhấn MAZ có âm Z rung, đuôi DUH",
+    "level": "basic",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_b_056",
+    "word": "Suzuki",
+    "phonetic": "/sʊˈzuː.ki/",
+    "tip": "Nhấn ZOO, âm KI dứt khoát",
+    "level": "basic",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_b_057",
+    "word": "Hyundai",
+    "phonetic": "/ˈhʌn.deɪ/",
+    "tip": "Đọc như HUN-day trong tiếng Anh",
+    "level": "basic",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_b_058",
+    "word": "Subaru",
+    "phonetic": "/ˈsuː.bə.ruː/",
+    "tip": "Nhấn SOO, đuôi ROO kéo dài",
+    "level": "basic",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_b_059",
+    "word": "Lexus",
+    "phonetic": "/ˈlɛk.səs/",
+    "tip": "Nhấn LEK, kết thúc âm SUHS",
+    "level": "basic",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_b_060",
+    "word": "Fiat",
+    "phonetic": "/ˈfiː.æt/",
+    "tip": "Nhấn FEE, đuôi AT bật nhẹ T",
+    "level": "basic",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_i_061",
+    "word": "BMW",
+    "phonetic": "/ˌbiː.ɛmˈdʌb.əl.juː/",
+    "tip": "Đọc từng chữ B-M-W, nhấn W",
+    "level": "medium",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_i_062",
+    "word": "Mercedes",
+    "phonetic": "/mərˈseɪ.diːz/",
+    "tip": "Nhấn SAY, kết thúc DEEZ rung Z",
+    "level": "medium",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_i_063",
+    "word": "Ferrari",
+    "phonetic": "/fəˈrɑːr.i/",
+    "tip": "Nhấn RAH dài, âm I tươi sáng",
+    "level": "medium",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_i_064",
+    "word": "Porsche",
+    "phonetic": "/ˈpɔːr.ʃə/",
+    "tip": "Nhấn POR uốn lưỡi, đuôi SHUH nhẹ",
+    "level": "medium",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_i_065",
+    "word": "Bugatti",
+    "phonetic": "/bʊˈɡæt.i/",
+    "tip": "Âm BOO lướt, nhấn GAT bật T",
+    "level": "medium",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_i_066",
+    "word": "Bentley",
+    "phonetic": "/ˈbɛnt.li/",
+    "tip": "Nhấn BENT có âm T, đuôi LEE",
+    "level": "medium",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_i_067",
+    "word": "Chevrolet",
+    "phonetic": "/ˌʃɛv.rəˈleɪ/",
+    "tip": "Bắt đầu SHEV, nhấn LAY câm T",
+    "level": "medium",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_i_068",
+    "word": "Cadillac",
+    "phonetic": "/ˈkæd.ɪ.læk/",
+    "tip": "Nhấn CAD, kết thúc LAK có K",
+    "level": "medium",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_i_069",
+    "word": "Peugeot",
+    "phonetic": "/ˈpɜː.ʒoʊ/",
+    "tip": "Nhấn PUR, âm ZHOU rung vòm họng",
+    "level": "medium",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_i_070",
+    "word": "Renault",
+    "phonetic": "/ˈrɛn.oʊ/",
+    "tip": "Nhấn REN, đuôi OH câm chữ LT",
+    "level": "medium",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_i_071",
+    "word": "Jaguar",
+    "phonetic": "/ˈdʒæɡ.ju.ər/",
+    "tip": "Bật J, nhấn JAG, đuôi YOO-ER",
+    "level": "medium",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_i_072",
+    "word": "Maserati",
+    "phonetic": "/ˌmæz.əˈrɑː.ti/",
+    "tip": "Nhấn RAH dài, đuôi TEE rõ",
+    "level": "medium",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_i_073",
+    "word": "Infiniti",
+    "phonetic": "/ɪnˈfɪn.ə.ti/",
+    "tip": "Nhấn FIN, đuôi TEE dứt khoát",
+    "level": "medium",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_i_074",
+    "word": "Genesis",
+    "phonetic": "/ˈdʒɛn.ə.sɪs/",
+    "tip": "Nhấn JEN, đuôi SIS dứt khoát",
+    "level": "medium",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_i_075",
+    "word": "Chrysler",
+    "phonetic": "/ˈkraɪs.lər/",
+    "tip": "Bắt đầu CRY, đuôi SLER uốn lưỡi",
+    "level": "medium",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_e_076",
+    "word": "Lamborghini",
+    "phonetic": "/ˌlæm.bərˈɡiː.ni/",
+    "tip": "Nhấn GEE, phát âm liền mạch",
+    "level": "advanced",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_e_077",
+    "word": "Aston Martin",
+    "phonetic": "/ˌæs.tən ˈmɑːr.tɪn/",
+    "tip": "Nhấn AS, từ sau nhấn MAR",
+    "level": "advanced",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_e_078",
+    "word": "Rolls-Royce",
+    "phonetic": "/ˌroʊlzˈrɔɪs/",
+    "tip": "Uốn lưỡi ROLLS, đuôi ROYS bật S",
+    "level": "advanced",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_e_079",
+    "word": "Alfa Romeo",
+    "phonetic": "/ˌæl.fə roʊˈmeɪ.oʊ/",
+    "tip": "Nhấn MAY, kết thúc OU mềm",
+    "level": "advanced",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_e_080",
+    "word": "Koenigsegg",
+    "phonetic": "/ˈkɜː.nɪɡ.sɛɡ/",
+    "tip": "Nhấn KUR, đuôi SEG bật G",
+    "level": "advanced",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_e_081",
+    "word": "McLaren",
+    "phonetic": "/məˈklær.ən/",
+    "tip": "Nhấn CLAR mở miệng, đuôi UHN",
+    "level": "advanced",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_e_082",
+    "word": "Pagani",
+    "phonetic": "/pəˈɡɑː.ni/",
+    "tip": "Âm PUH lướt, nhấn mạnh GAH",
+    "level": "advanced",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_e_083",
+    "word": "Maybach",
+    "phonetic": "/ˈmaɪ.bɑːx/",
+    "tip": "Nhấn MY, đuôi BAKH khạc nhẹ",
+    "level": "advanced",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_e_084",
+    "word": "Polestar",
+    "phonetic": "/ˈpoʊl.stɑːr/",
+    "tip": "Nhấn POLE, STAR uốn lưỡi sâu",
+    "level": "advanced",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_e_085",
+    "word": "Lucid",
+    "phonetic": "/ˈluː.sɪd/",
+    "tip": "Nhấn LOO dài, đuôi SID bật D",
+    "level": "advanced",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_e_086",
+    "word": "Rimac",
+    "phonetic": "/ˈriː.mɑːts/",
+    "tip": "Nhấn REE, đuôi MATS dứt khoát",
+    "level": "advanced",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_e_087",
+    "word": "De Tomaso",
+    "phonetic": "/deɪ toʊˈmɑː.zoʊ/",
+    "tip": "Nhấn MAH dài, đuôi ZOU rung",
+    "level": "advanced",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_e_088",
+    "word": "Acura",
+    "phonetic": "/ˈæk.jʊ.rə/",
+    "tip": "Nhấn AC, đuôi YUR-UH mềm",
+    "level": "advanced",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_e_089",
+    "word": "Vauxhall",
+    "phonetic": "/ˈvɒk.sɔːl/",
+    "tip": "Nhấn VOK, đuôi SAWL kéo dài",
+    "level": "advanced",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "car_brands_e_090",
+    "word": "Lotus",
+    "phonetic": "/ˈloʊ.təs/",
+    "tip": "Nhấn LOU, đuôi TUHS dứt khoát",
+    "level": "advanced",
+    "subject": "car_brands",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_b_091",
+    "word": "Monday",
+    "phonetic": "/ˈmʌn.deɪ/",
+    "tip": "Nhấn MUN âm Á, đuôi DAY rõ",
+    "level": "basic",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_b_092",
+    "word": "Tuesday",
+    "phonetic": "/ˈtjuːz.deɪ/",
+    "tip": "Nhấn CHOOZ có Z, đuôi DAY",
+    "level": "basic",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_b_093",
+    "word": "Wednesday",
+    "phonetic": "/ˈwɛnz.deɪ/",
+    "tip": "Đọc 2 âm WENZ-day, câm chữ D",
+    "level": "basic",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_b_094",
+    "word": "Thursday",
+    "phonetic": "/ˈθɜːrz.deɪ/",
+    "tip": "Thè lưỡi TH, uốn lưỡi THURZ",
+    "level": "basic",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_b_095",
+    "word": "Friday",
+    "phonetic": "/ˈfraɪ.deɪ/",
+    "tip": "Bắt đầu FR, nguyên âm đôi AI",
+    "level": "basic",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_b_096",
+    "word": "Saturday",
+    "phonetic": "/ˈsæt.ər.deɪ/",
+    "tip": "Nhấn SAT, âm UR nhẹ, đuôi DAY",
+    "level": "basic",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_b_097",
+    "word": "Sunday",
+    "phonetic": "/ˈsʌn.deɪ/",
+    "tip": "Nhấn SUN âm Á, đuôi DAY vui vẻ",
+    "level": "basic",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_b_098",
+    "word": "Today",
+    "phonetic": "/təˈdeɪ/",
+    "tip": "Âm TUH lướt nhẹ, nhấn mạnh DAY",
+    "level": "basic",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_b_099",
+    "word": "Tonight",
+    "phonetic": "/təˈnaɪt/",
+    "tip": "Âm TUH lướt, nhấn NAIT bật T",
+    "level": "basic",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_b_100",
+    "word": "Day",
+    "phonetic": "/deɪ/",
+    "tip": "Bật D dứt khoát, nguyên âm EI",
+    "level": "basic",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_b_101",
+    "word": "Week",
+    "phonetic": "/wiːk/",
+    "tip": "Tròn môi W, kéo dài EE, bật K",
+    "level": "basic",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_b_102",
+    "word": "Weekend",
+    "phonetic": "/ˈwiːk.ɛnd/",
+    "tip": "Nhấn WEEK, đuôi END bật D",
+    "level": "basic",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_b_103",
+    "word": "Daily",
+    "phonetic": "/ˈdeɪ.li/",
+    "tip": "Nhấn DAY, đuôi LEE nhẹ nhàng",
+    "level": "basic",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_b_104",
+    "word": "Morning",
+    "phonetic": "/ˈmɔːr.nɪŋ/",
+    "tip": "Nhấn MOR uốn lưỡi, đuôi NING",
+    "level": "basic",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_b_105",
+    "word": "Night",
+    "phonetic": "/naɪt/",
+    "tip": "Bắt đầu N, nguyên âm AI, bật T",
+    "level": "basic",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_i_106",
+    "word": "Yesterday",
+    "phonetic": "/ˈjɛs.tər.deɪ/",
+    "tip": "Nhấn YES có S, đuôi TER-day",
+    "level": "medium",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_i_107",
+    "word": "Tomorrow",
+    "phonetic": "/təˈmɒr.oʊ/",
+    "tip": "Âm TUH nhẹ, nhấn MOR, đuôi OU",
+    "level": "medium",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_i_108",
+    "word": "Afternoon",
+    "phonetic": "/ˌɑːf.tərˈnuːn/",
+    "tip": "Nhấn chính vào NOON dài",
+    "level": "medium",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_i_109",
+    "word": "Evening",
+    "phonetic": "/ˈiːv.nɪŋ/",
+    "tip": "Nhấn EEV, đuôi NING phát mềm",
+    "level": "medium",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_i_110",
+    "word": "Midweek",
+    "phonetic": "/ˌmɪdˈwiːk/",
+    "tip": "Nhấn WEEK, kết thúc bật K",
+    "level": "medium",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_i_111",
+    "word": "Fortnight",
+    "phonetic": "/ˈfɔːrt.naɪt/",
+    "tip": "Nhấn FORT uốn lưỡi, đuôi NAIT",
+    "level": "medium",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_i_112",
+    "word": "Weekly",
+    "phonetic": "/ˈwiːk.li/",
+    "tip": "Kéo dài WEEK, đuôi LEE dứt khoát",
+    "level": "medium",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_i_113",
+    "word": "Schedule",
+    "phonetic": "/ˈskɛdʒ.uːl/",
+    "tip": "Nhấn SKEDJ, đuôi OOL nhẹ",
+    "level": "medium",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_i_114",
+    "word": "Calendar",
+    "phonetic": "/ˈkæl.ən.dər/",
+    "tip": "Nhấn CAL, hai âm sau đọc lướt",
+    "level": "medium",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_i_115",
+    "word": "Holiday",
+    "phonetic": "/ˈhɒl.ə.deɪ/",
+    "tip": "Nhấn HOL, hai âm sau đọc nhanh",
+    "level": "medium",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_i_116",
+    "word": "Routine",
+    "phonetic": "/ruːˈtiːn/",
+    "tip": "Âm ROO lướt, nhấn mạnh TEEN",
+    "level": "medium",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_i_117",
+    "word": "Sunrise",
+    "phonetic": "/ˈsʌn.raɪz/",
+    "tip": "Nhấn SUN, đuôi RAIZ có Z rung",
+    "level": "medium",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_i_118",
+    "word": "Sunset",
+    "phonetic": "/ˈsʌn.sɛt/",
+    "tip": "Nhấn SUN, đuôi SET bật T",
+    "level": "medium",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_i_119",
+    "word": "Noon",
+    "phonetic": "/nuːn/",
+    "tip": "Bắt đầu N, kéo dài OO, khép N",
+    "level": "medium",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_i_120",
+    "word": "Midnight",
+    "phonetic": "/ˈmɪd.naɪt/",
+    "tip": "Nhấn MID, đuôi NAIT bật T",
+    "level": "medium",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_e_121",
+    "word": "Chronological",
+    "phonetic": "/ˌkrɒn.əˈlɒdʒ.ɪ.kəl/",
+    "tip": "Nhấn LOJ, phát âm nhịp nhàng",
+    "level": "advanced",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_e_122",
+    "word": "Biweekly",
+    "phonetic": "/baɪˈwiːk.li/",
+    "tip": "Nhấn WEEK, đuôi LEE rõ nét",
+    "level": "advanced",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_e_123",
+    "word": "Fortnightly",
+    "phonetic": "/ˈfɔːrt.naɪt.li/",
+    "tip": "Nhấn FORT, đuôi NAIT-lee",
+    "level": "advanced",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_e_124",
+    "word": "Perennial",
+    "phonetic": "/pəˈrɛn.i.əl/",
+    "tip": "Âm PUH lướt, nhấn REN, đuôi EE-uhl",
+    "level": "advanced",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_e_125",
+    "word": "Centennial",
+    "phonetic": "/sɛnˈtɛn.i.əl/",
+    "tip": "Nhấn TEN, các âm sau đọc lướt",
+    "level": "advanced",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_e_126",
+    "word": "Bimonthly",
+    "phonetic": "/baɪˈmʌnθ.li/",
+    "tip": "Nhấn MONTH có âm TH thè lưỡi",
+    "level": "advanced",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_e_127",
+    "word": "Semiannual",
+    "phonetic": "/ˌsɛm.iˈæn.ju.əl/",
+    "tip": "Nhấn AN mở rộng miệng",
+    "level": "advanced",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_e_128",
+    "word": "Nocturnal",
+    "phonetic": "/nɒkˈtɜːr.nəl/",
+    "tip": "Nhấn TUR uốn lưỡi sâu",
+    "level": "advanced",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_e_129",
+    "word": "Diurnal",
+    "phonetic": "/daɪˈɜːr.nəl/",
+    "tip": "Bắt đầu DYE, nhấn URN uốn lưỡi",
+    "level": "advanced",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_e_130",
+    "word": "Equinox",
+    "phonetic": "/ˈɛk.wɪ.nɒks/",
+    "tip": "Nhấn EK, đuôi NOKS có KS",
+    "level": "advanced",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_e_131",
+    "word": "Solstice",
+    "phonetic": "/ˈsɒl.stɪs/",
+    "tip": "Nhấn SOL cong lưỡi, đuôi STIS",
+    "level": "advanced",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_e_132",
+    "word": "Intermittent",
+    "phonetic": "/ˌɪn.tərˈmɪt.ənt/",
+    "tip": "Nhấn MIT, kết thúc âm NT",
+    "level": "advanced",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_e_133",
+    "word": "Leap Year",
+    "phonetic": "/ˈliːp ˌjɪər/",
+    "tip": "Kéo dài LEEP bật P, YEAR uốn",
+    "level": "advanced",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_e_134",
+    "word": "Dawn",
+    "phonetic": "/dɔːn/",
+    "tip": "Âm D dứt khoát, kéo dài AW, khép N",
+    "level": "advanced",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "weekdays_e_135",
+    "word": "Dusk",
+    "phonetic": "/dʌsk/",
+    "tip": "Bắt đầu D, âm Á, kết thúc SK",
+    "level": "advanced",
+    "subject": "weekdays",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_b_136",
+    "word": "January",
+    "phonetic": "/ˈdʒæn.ju.ɛr.i/",
+    "tip": "Nhấn JAN, phát âm 4 âm tiết rõ",
+    "level": "basic",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_b_137",
+    "word": "February",
+    "phonetic": "/ˈfɛb.ru.ɛr.i/",
+    "tip": "Nhấn FEB, đọc đủ âm RU",
+    "level": "basic",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_b_138",
+    "word": "March",
+    "phonetic": "/mɑːrtʃ/",
+    "tip": "Nguyên âm AR uốn lưỡi, bật CH",
+    "level": "basic",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_b_139",
+    "word": "April",
+    "phonetic": "/ˈeɪ.prəl/",
+    "tip": "Nhấn AY, đuôi PRUHL nhẹ",
+    "level": "basic",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_b_140",
+    "word": "May",
+    "phonetic": "/meɪ/",
+    "tip": "Bắt đầu M, nguyên âm đôi EI",
+    "level": "basic",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_b_141",
+    "word": "June",
+    "phonetic": "/dʒuːn/",
+    "tip": "Bật J rung vòm, kéo dài OO, khép N",
+    "level": "basic",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_b_142",
+    "word": "July",
+    "phonetic": "/dʒuːˈlaɪ/",
+    "tip": "Âm JOO lướt, nhấn mạnh LAI",
+    "level": "basic",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_b_143",
+    "word": "August",
+    "phonetic": "/ˈɔː.ɡəst/",
+    "tip": "Nhấn AW, kết thúc GUHST có ST",
+    "level": "basic",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_b_144",
+    "word": "September",
+    "phonetic": "/sɛpˈtɛm.bər/",
+    "tip": "Nhấn TEM, đuôi BUR uốn lưỡi",
+    "level": "basic",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_b_145",
+    "word": "October",
+    "phonetic": "/ɒkˈtoʊ.bər/",
+    "tip": "Nhấn TOU, đuôi BUR uốn lưỡi",
+    "level": "basic",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_b_146",
+    "word": "November",
+    "phonetic": "/noʊˈvɛm.bər/",
+    "tip": "Nhấn VEM, đuôi BUR uốn lưỡi",
+    "level": "basic",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_b_147",
+    "word": "December",
+    "phonetic": "/dɪˈsɛm.bər/",
+    "tip": "Nhấn SEM, đuôi BUR uốn lưỡi",
+    "level": "basic",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_b_148",
+    "word": "Month",
+    "phonetic": "/mʌnθ/",
+    "tip": "Âm Á, kết thúc bằng TH thè lưỡi",
+    "level": "basic",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_b_149",
+    "word": "Year",
+    "phonetic": "/jɪər/",
+    "tip": "Âm Y nhẹ, nguyên âm IER uốn lưỡi",
+    "level": "basic",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_b_150",
+    "word": "Season",
+    "phonetic": "/ˈsiː.zən/",
+    "tip": "Nhấn SEE kéo dài, đuôi ZUHN",
+    "level": "basic",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_i_151",
+    "word": "Spring",
+    "phonetic": "/sprɪŋ/",
+    "tip": "Nối nhanh SPR, kết thúc âm NG",
+    "level": "medium",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_i_152",
+    "word": "Summer",
+    "phonetic": "/ˈsʌm.ər/",
+    "tip": "Nhấn SUM âm Á, đuôi ER nhẹ",
+    "level": "medium",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_i_153",
+    "word": "Autumn",
+    "phonetic": "/ˈɔː.təm/",
+    "tip": "Nhấn AW kéo dài, đuôi TUHM câm N",
+    "level": "medium",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_i_154",
+    "word": "Winter",
+    "phonetic": "/ˈwɪn.tər/",
+    "tip": "Nhấn WIN dứt khoát, đuôi TER",
+    "level": "medium",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_i_155",
+    "word": "Quarter",
+    "phonetic": "/ˈkwɔːr.tər/",
+    "tip": "Bắt đầu KW, nhấn QUAR, đuôi TER",
+    "level": "medium",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_i_156",
+    "word": "Semester",
+    "phonetic": "/sɪˈmɛs.tər/",
+    "tip": "Nhấn MES có S, đuôi TER",
+    "level": "medium",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_i_157",
+    "word": "Monthly",
+    "phonetic": "/ˈmʌnθ.li/",
+    "tip": "Nhấn MONTH có TH thè lưỡi",
+    "level": "medium",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_i_158",
+    "word": "Yearly",
+    "phonetic": "/ˈjɪər.li/",
+    "tip": "Nhấn YEAR uốn lưỡi, đuôi LEE",
+    "level": "medium",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_i_159",
+    "word": "Decade",
+    "phonetic": "/ˈdɛk.eɪd/",
+    "tip": "Nhấn DEK, đuôi AYD bật D",
+    "level": "medium",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_i_160",
+    "word": "Century",
+    "phonetic": "/ˈsɛn.tʃər.i/",
+    "tip": "Nhấn SEN, đuôi CHER-ee",
+    "level": "medium",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_i_161",
+    "word": "Millennium",
+    "phonetic": "/mɪˈlɛn.i.əm/",
+    "tip": "Nhấn LEN, kết thúc EE-uhm",
+    "level": "medium",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_i_162",
+    "word": "Solstice",
+    "phonetic": "/ˈsɒl.stɪs/",
+    "tip": "Nhấn SOL cong lưỡi, đuôi STIS",
+    "level": "medium",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_i_163",
+    "word": "Equinox",
+    "phonetic": "/ˈiː.kwɪ.nɒks/",
+    "tip": "Nhấn EE-kwi, đuôi NOKS",
+    "level": "medium",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_i_164",
+    "word": "Anniversary",
+    "phonetic": "/ˌæn.ɪˈvɜːr.sər.i/",
+    "tip": "Nhấn VER uốn lưỡi sâu",
+    "level": "medium",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_i_165",
+    "word": "Calendar",
+    "phonetic": "/ˈkæl.ən.dər/",
+    "tip": "Nhấn CAL, hai âm sau đọc nhẹ",
+    "level": "medium",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_e_166",
+    "word": "Bicentennial",
+    "phonetic": "/ˌbaɪ.sɛnˈtɛn.i.əl/",
+    "tip": "Nhấn TEN, các âm sau đọc lướt",
+    "level": "advanced",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_e_167",
+    "word": "Sesquicentennial",
+    "phonetic": "/ˌsɛs.kwɪ.sɛnˈtɛn.i.əl/",
+    "tip": "Từ dài 6 âm, nhấn TEN",
+    "level": "advanced",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_e_168",
+    "word": "Millennial",
+    "phonetic": "/mɪˈlɛn.i.əl/",
+    "tip": "Nhấn LEN, đuôi EE-uhl",
+    "level": "advanced",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_e_169",
+    "word": "Pluviophile",
+    "phonetic": "/ˈpluː.vi.oʊˌfaɪl/",
+    "tip": "Nhấn PLOO, đuôi FILE",
+    "level": "advanced",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_e_170",
+    "word": "Aestivation",
+    "phonetic": "/ˌiː.stɪˈveɪ.ʃən/",
+    "tip": "Nhấn VAY, đuôi SHUHN",
+    "level": "advanced",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_e_171",
+    "word": "Hibernation",
+    "phonetic": "/ˌhaɪ.bərˈneɪ.ʃən/",
+    "tip": "Nhấn NAY, đuôi SHUHN",
+    "level": "advanced",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_e_172",
+    "word": "Crepuscular",
+    "phonetic": "/krɪˈpʌs.kjʊ.lər/",
+    "tip": "Nhấn PUS, đuôi KYOO-ler",
+    "level": "advanced",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_e_173",
+    "word": "Vernal",
+    "phonetic": "/ˈvɜːr.nəl/",
+    "tip": "Nhấn VUR uốn lưỡi, đuôi NUHL",
+    "level": "advanced",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_e_174",
+    "word": "Autumnal",
+    "phonetic": "/ɔːˈtʌm.nəl/",
+    "tip": "Nhấn TUM âm Á, phát âm rõ N",
+    "level": "advanced",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_e_175",
+    "word": "Hibernal",
+    "phonetic": "/haɪˈbɜːr.nəl/",
+    "tip": "Nhấn BUR uốn lưỡi sâu",
+    "level": "advanced",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_e_176",
+    "word": "Estival",
+    "phonetic": "/ˈɛs.tɪ.vəl/",
+    "tip": "Nhấn ES, hai âm sau đọc lướt",
+    "level": "advanced",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_e_177",
+    "word": "Bissextile",
+    "phonetic": "/bɪˈsɛks.taɪl/",
+    "tip": "Năm nhuận, nhấn SEK, đuôi TAIL",
+    "level": "advanced",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_e_178",
+    "word": "Dodecahedron",
+    "phonetic": "/doʊˌdɛk.əˈhiː.drən/",
+    "tip": "Nhấn HEE, đuôi DRUHN",
+    "level": "advanced",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_e_179",
+    "word": "Phenology",
+    "phonetic": "/fɪˈnɒl.ə.dʒi/",
+    "tip": "Nhấn NOL, đuôi JEE nhẹ",
+    "level": "advanced",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "months_e_180",
+    "word": "Ephemeral",
+    "phonetic": "/ɪˈfɛm.ər.əl/",
+    "tip": "Nhấn FEM, đuôi ER-uhl lướt",
+    "level": "advanced",
+    "subject": "months",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_b_181",
+    "word": "Cat",
+    "phonetic": "/kæt/",
+    "tip": "Bật K, âm A bẹt mở miệng, bật T",
+    "level": "basic",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_b_182",
+    "word": "Dog",
+    "phonetic": "/dɒɡ/",
+    "tip": "Bật D, nguyên âm O tròn, bật G",
+    "level": "basic",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_b_183",
+    "word": "Bird",
+    "phonetic": "/bɜːrd/",
+    "tip": "Âm B, nguyên âm UR uốn lưỡi, bật D",
+    "level": "basic",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_b_184",
+    "word": "Fish",
+    "phonetic": "/fɪʃ/",
+    "tip": "Bắt đầu F, kết thúc SH chu môi",
+    "level": "basic",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_b_185",
+    "word": "Lion",
+    "phonetic": "/ˈlaɪ.ən/",
+    "tip": "Nhấn LAI, đuôi UHN phát nhẹ",
+    "level": "basic",
+    "subject": "animals",
+    "banner": "file:///android_asset/banners/banner_animals_lion.webp",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_b_186",
+    "word": "Tiger",
+    "phonetic": "/ˈtaɪ.ɡər/",
+    "tip": "Nhấn TAI, đuôi GUR uốn nhẹ",
+    "level": "basic",
+    "subject": "animals",
+    "banner": "file:///android_asset/banners/banner_animals_tiger.webp",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_b_187",
+    "word": "Bear",
+    "phonetic": "/bɛər/",
+    "tip": "Âm B, nguyên âm AIR kéo dài",
+    "level": "basic",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_b_188",
+    "word": "Monkey",
+    "phonetic": "/ˈmʌŋ.ki/",
+    "tip": "Nhấn MUNG âm Á, đuôi KEE rõ",
+    "level": "basic",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_b_189",
+    "word": "Rabbit",
+    "phonetic": "/ˈræb.ɪt/",
+    "tip": "Nhấn RAB, đuôi IT bật T",
+    "level": "basic",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_b_190",
+    "word": "Duck",
+    "phonetic": "/dʌk/",
+    "tip": "Bật D, âm Á, kết thúc K dứt khoát",
+    "level": "basic",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_b_191",
+    "word": "Horse",
+    "phonetic": "/hɔːrs/",
+    "tip": "Nhấn HOR uốn lưỡi, đuôi S gió",
+    "level": "basic",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_b_192",
+    "word": "Sheep",
+    "phonetic": "/ʃiːp/",
+    "tip": "Chu môi SH, kéo dài EE, ngậm P",
+    "level": "basic",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_b_193",
+    "word": "Cow",
+    "phonetic": "/kaʊ/",
+    "tip": "Bật K, nguyên âm đôi AW",
+    "level": "basic",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_b_194",
+    "word": "Pig",
+    "phonetic": "/pɪɡ/",
+    "tip": "Bật hơi P mạnh, kết thúc G nhẹ",
+    "level": "basic",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_b_195",
+    "word": "Elephant",
+    "phonetic": "/ˈɛl.ɪ.fənt/",
+    "tip": "Nhấn EL, đuôi FUHNT bật T",
+    "level": "basic",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_i_196",
+    "word": "Panda",
+    "phonetic": "/ˈpæn.də/",
+    "tip": "Bật P, nhấn PAN, đuôi DUH mềm",
+    "level": "medium",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_i_197",
+    "word": "Zebra",
+    "phonetic": "/ˈzɛb.rə/",
+    "tip": "Âm Z rung, nhấn ZEB, đuôi RUH",
+    "level": "medium",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_i_198",
+    "word": "Giraffe",
+    "phonetic": "/dʒɪˈrɑːf/",
+    "tip": "Âm JI lướt, nhấn RAAF kéo dài",
+    "level": "medium",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_i_199",
+    "word": "Kangaroo",
+    "phonetic": "/ˌkæŋ.ɡəˈruː/",
+    "tip": "Nhấn chính vào ROO kéo dài",
+    "level": "medium",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_i_200",
+    "word": "Penguin",
+    "phonetic": "/ˈpɛŋ.ɡwɪn/",
+    "tip": "Nhấn PENG, đuôi GWIN rõ",
+    "level": "medium",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_i_201",
+    "word": "Dolphin",
+    "phonetic": "/ˈdɒl.fɪn/",
+    "tip": "Nhấn DOL cong lưỡi, đuôi FIN",
+    "level": "medium",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_i_202",
+    "word": "Cheetah",
+    "phonetic": "/ˈtʃiː.tə/",
+    "tip": "Bật CH, nhấn CHEE dài, đuôi TUH",
+    "level": "medium",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_i_203",
+    "word": "Leopard",
+    "phonetic": "/ˈlɛp.ərd/",
+    "tip": "Nhấn LEP, đuôi ERD câm âm O",
+    "level": "medium",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_i_204",
+    "word": "Crocodile",
+    "phonetic": "/ˈkrɒk.ə.daɪl/",
+    "tip": "Nhấn CROC, đuôi DAIL cong L",
+    "level": "medium",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_i_205",
+    "word": "Gorilla",
+    "phonetic": "/ɡəˈrɪl.ə/",
+    "tip": "Âm GUH lướt, nhấn RIL, đuôi LUH",
+    "level": "medium",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_i_206",
+    "word": "Flamingo",
+    "phonetic": "/fləˈmɪŋ.ɡoʊ/",
+    "tip": "Nhấn MING, đuôi GOU",
+    "level": "medium",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_i_207",
+    "word": "Koala",
+    "phonetic": "/koʊˈɑː.lə/",
+    "tip": "Nhấn AH kéo dài, đuôi LUH",
+    "level": "medium",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_i_208",
+    "word": "Squirrel",
+    "phonetic": "/ˈskwɪr.əl/",
+    "tip": "Bắt đầu SKW, âm UHL uốn lưỡi",
+    "level": "medium",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_i_209",
+    "word": "Octopus",
+    "phonetic": "/ˈɒk.tə.pəs/",
+    "tip": "Nhấn OC, đuôi PUHS dứt khoát",
+    "level": "medium",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_i_210",
+    "word": "Peacock",
+    "phonetic": "/ˈpiː.kɒk/",
+    "tip": "Kéo dài PEE, đuôi KOK bật K",
+    "level": "medium",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_e_211",
+    "word": "Chameleon",
+    "phonetic": "/kəˈmiː.li.ən/",
+    "tip": "Nhấn MEE dài, đuôi LEE-uhn",
+    "level": "advanced",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_e_212",
+    "word": "Platypus",
+    "phonetic": "/ˈplæt.ɪ.pəs/",
+    "tip": "Nhấn PLAT, đuôi PUHS",
+    "level": "advanced",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_e_213",
+    "word": "Armadillo",
+    "phonetic": "/ˌɑːr.məˈdɪl.oʊ/",
+    "tip": "Nhấn DIL, đuôi LOU",
+    "level": "advanced",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_e_214",
+    "word": "Hippopotamus",
+    "phonetic": "/ˌhɪp.əˈpɒt.ə.məs/",
+    "tip": "Từ 5 âm tiết, nhấn POT",
+    "level": "advanced",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_e_215",
+    "word": "Rhinoceros",
+    "phonetic": "/raɪˈnɒs.ər.əs/",
+    "tip": "Nhấn NOS, đuôi ER-uhs",
+    "level": "advanced",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_e_216",
+    "word": "Chimpanzee",
+    "phonetic": "/ˌtʃɪm.pænˈziː/",
+    "tip": "Nhấn chính ZEE kéo dài",
+    "level": "advanced",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_e_217",
+    "word": "Salamander",
+    "phonetic": "/ˈsæl.əˌmæn.dər/",
+    "tip": "Nhấn SAL, đuôi MAN-der",
+    "level": "advanced",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_e_218",
+    "word": "Porcupine",
+    "phonetic": "/ˈpɔːr.kjʊˌpaɪn/",
+    "tip": "Nhấn POR uốn lưỡi, đuôi PAIN",
+    "level": "advanced",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_e_219",
+    "word": "Orangutan",
+    "phonetic": "/ɔːˈræŋ.ʊˌtæn/",
+    "tip": "Nhấn RANG, đuôi TAN",
+    "level": "advanced",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_e_220",
+    "word": "Hummingbird",
+    "phonetic": "/ˈhʌm.ɪŋ.bɜːrd/",
+    "tip": "Nhấn HUM, BIRD uốn lưỡi sâu",
+    "level": "advanced",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_e_221",
+    "word": "Wolverine",
+    "phonetic": "/ˈwʊl.vəˌriːn/",
+    "tip": "Nhấn WOOL, đuôi REEN kéo dài",
+    "level": "advanced",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_e_222",
+    "word": "Axolotl",
+    "phonetic": "/ˈæk.səˌlɒt.əl/",
+    "tip": "Nhấn AK, đuôi LOT-uhl",
+    "level": "advanced",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_e_223",
+    "word": "Komodo Dragon",
+    "phonetic": "/kəˌmoʊ.doʊ ˈdræɡ.ən/",
+    "tip": "Nhấn MOU, từ sau nhấn DRAG",
+    "level": "advanced",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_e_224",
+    "word": "Ostrich",
+    "phonetic": "/ˈɒs.trɪtʃ/",
+    "tip": "Nhấn OS, đuôi TRICH bật CH",
+    "level": "advanced",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "animals_e_225",
+    "word": "Capybara",
+    "phonetic": "/ˌkæp.ɪˈbɑː.rə/",
+    "tip": "Nhấn BAH dài, đuôi RUH mềm",
+    "level": "advanced",
+    "subject": "animals",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_b_226",
+    "word": "Car",
+    "phonetic": "/kɑːr/",
+    "tip": "Bật K, kéo dài AR uốn cong lưỡi",
+    "level": "basic",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_b_227",
+    "word": "Bus",
+    "phonetic": "/bʌs/",
+    "tip": "Bắt đầu B, âm Á, kết thúc S gió",
+    "level": "basic",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_b_228",
+    "word": "Bike",
+    "phonetic": "/baɪk/",
+    "tip": "Bắt đầu B, nguyên âm AI, bật K",
+    "level": "basic",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_b_229",
+    "word": "Train",
+    "phonetic": "/treɪn/",
+    "tip": "Nối âm TR mượt mà, nguyên âm AIN",
+    "level": "basic",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_b_230",
+    "word": "Plane",
+    "phonetic": "/pleɪn/",
+    "tip": "Nối PL, nguyên âm AIN khép N",
+    "level": "basic",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_b_231",
+    "word": "Boat",
+    "phonetic": "/boʊt/",
+    "tip": "Bắt đầu B, nguyên âm OU, bật T",
+    "level": "basic",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_b_232",
+    "word": "Ship",
+    "phonetic": "/ʃɪp/",
+    "tip": "Chu môi SH, âm I ngắn, ngậm P",
+    "level": "basic",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_b_233",
+    "word": "Taxi",
+    "phonetic": "/ˈtæk.si/",
+    "tip": "Nhấn TAK, đuôi SEE vui vẻ",
+    "level": "basic",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_b_234",
+    "word": "Truck",
+    "phonetic": "/trʌk/",
+    "tip": "Bắt đầu TR, âm Á, kết thúc K",
+    "level": "basic",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_b_235",
+    "word": "Van",
+    "phonetic": "/væn/",
+    "tip": "Răng cắn môi dưới V, âm A bẹt",
+    "level": "basic",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_b_236",
+    "word": "Subway",
+    "phonetic": "/ˈsʌb.weɪ/",
+    "tip": "Nhấn SUB, đuôi WAY kéo dài",
+    "level": "basic",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_b_237",
+    "word": "Rocket",
+    "phonetic": "/ˈrɒk.ɪt/",
+    "tip": "Nhấn ROK, đuôi IT bật T",
+    "level": "basic",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_b_238",
+    "word": "Cart",
+    "phonetic": "/kɑːrt/",
+    "tip": "Bật K, âm AR uốn lưỡi, bật T",
+    "level": "basic",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_b_239",
+    "word": "Jeep",
+    "phonetic": "/dʒiːp/",
+    "tip": "Bật J rung vòm, kéo dài EE, ngậm P",
+    "level": "basic",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_b_240",
+    "word": "Scooter",
+    "phonetic": "/ˈskuː.tər/",
+    "tip": "Bắt đầu SK, nhấn KOO dài, đuôi TER",
+    "level": "basic",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_i_241",
+    "word": "Helicopter",
+    "phonetic": "/ˈhɛl.ɪˌkɒp.tər/",
+    "tip": "Nhấn HEL, đuôi KOP-ter",
+    "level": "medium",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_i_242",
+    "word": "Motorcycle",
+    "phonetic": "/ˈmoʊ.tərˌsaɪ.kəl/",
+    "tip": "Nhấn MOU, đuôi SAI-kl",
+    "level": "medium",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_i_243",
+    "word": "Ambulance",
+    "phonetic": "/ˈæm.bjʊ.ləns/",
+    "tip": "Nhấn AM, đuôi LUHNS",
+    "level": "medium",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_i_244",
+    "word": "Submarine",
+    "phonetic": "/ˌsʌb.məˈriːn/",
+    "tip": "Nhấn chính REEN kéo dài",
+    "level": "medium",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_i_245",
+    "word": "Tractor",
+    "phonetic": "/ˈtræk.tər/",
+    "tip": "Bắt đầu TR, nhấn TRAC, đuôi TER",
+    "level": "medium",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_i_246",
+    "word": "Ferry",
+    "phonetic": "/ˈfɛr.i/",
+    "tip": "Răng môi F, nhấn FER, đuôi EE",
+    "level": "medium",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_i_247",
+    "word": "Yacht",
+    "phonetic": "/jɒt/",
+    "tip": "Âm Y nhẹ, nguyên âm O, bật T",
+    "level": "medium",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_i_248",
+    "word": "Tram",
+    "phonetic": "/træm/",
+    "tip": "Nối TR, âm A bẹt, khép M",
+    "level": "medium",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_i_249",
+    "word": "Bulldozer",
+    "phonetic": "/ˈbʊlˌdoʊ.zər/",
+    "tip": "Nhấn BULL cong L, đuôi ZER",
+    "level": "medium",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_i_250",
+    "word": "Forklift",
+    "phonetic": "/ˈfɔːrk.lɪft/",
+    "tip": "Nhấn FORK, đuôi LIFT có FT",
+    "level": "medium",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_i_251",
+    "word": "Hovercraft",
+    "phonetic": "/ˈhɒv.ər.kræft/",
+    "tip": "Nhấn HOV, đuôi KRAFT có FT",
+    "level": "medium",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_i_252",
+    "word": "Monorail",
+    "phonetic": "/ˈmɒn.oʊ.reɪl/",
+    "tip": "Nhấn MON, đuôi RAIL cong L",
+    "level": "medium",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_i_253",
+    "word": "Cable Car",
+    "phonetic": "/ˈkeɪ.bəl ˌkɑːr/",
+    "tip": "Nhấn KAY-bl, CAR uốn lưỡi",
+    "level": "medium",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_i_254",
+    "word": "Limousine",
+    "phonetic": "/ˌlɪm.əˈziːn/",
+    "tip": "Nhấn ZEEN kéo dài",
+    "level": "medium",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_i_255",
+    "word": "Spaceship",
+    "phonetic": "/ˈspeɪs.ʃɪp/",
+    "tip": "Nhấn SPAYS có S, đuôi SHIP",
+    "level": "medium",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_e_256",
+    "word": "Dirigible",
+    "phonetic": "/ˈdɪr.ɪ.dʒə.bəl/",
+    "tip": "Nhấn DIR, đuôi JI-buhl",
+    "level": "advanced",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_e_257",
+    "word": "Hoverboard",
+    "phonetic": "/ˈhɒv.ər.bɔːrd/",
+    "tip": "Nhấn HOV, BOARD uốn lưỡi",
+    "level": "advanced",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_e_258",
+    "word": "Snowmobile",
+    "phonetic": "/ˈsnoʊ.məˌbiːl/",
+    "tip": "Nhấn SNOU, đuôi BEEL",
+    "level": "advanced",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_e_259",
+    "word": "Hydrofoil",
+    "phonetic": "/ˈhaɪ.drə.fɔɪl/",
+    "tip": "Nhấn HY-dro, đuôi FOIL",
+    "level": "advanced",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_e_260",
+    "word": "Convertible",
+    "phonetic": "/kənˈvɜːr.tə.bəl/",
+    "tip": "Nhấn VUR uốn lưỡi sâu",
+    "level": "advanced",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_e_261",
+    "word": "Locomotive",
+    "phonetic": "/ˌloʊ.kəˈmoʊ.tɪv/",
+    "tip": "Nhấn MOU, đuôi TIV",
+    "level": "advanced",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_e_262",
+    "word": "Catamaran",
+    "phonetic": "/ˌkæt.ə.məˈræn/",
+    "tip": "Nhấn RAN mở rộng miệng",
+    "level": "advanced",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_e_263",
+    "word": "Funicular",
+    "phonetic": "/fjʊˈnɪk.jʊ.lər/",
+    "tip": "Nhấn NIK, đuôi YOO-ler",
+    "level": "advanced",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_e_264",
+    "word": "Amphibious",
+    "phonetic": "/æmˈfɪb.i.əs/",
+    "tip": "Nhấn FIB, đuôi EE-uhs",
+    "level": "advanced",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_e_265",
+    "word": "Aerospace",
+    "phonetic": "/ˈɛr.oʊˌspeɪs/",
+    "tip": "Nhấn AIR-oh, SPAYS có S",
+    "level": "advanced",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_e_266",
+    "word": "Zeppelin",
+    "phonetic": "/ˈzɛp.əl.ɪn/",
+    "tip": "Âm Z rung, nhấn ZEP, đuôi LIN",
+    "level": "advanced",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_e_267",
+    "word": "Glider",
+    "phonetic": "/ˈɡlaɪ.dər/",
+    "tip": "Bắt đầu GL, nhấn GLY, đuôi DER",
+    "level": "advanced",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_e_268",
+    "word": "Paraglider",
+    "phonetic": "/ˈpær.əˌɡlaɪ.dər/",
+    "tip": "Nhấn PAR, GLY-der",
+    "level": "advanced",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_e_269",
+    "word": "Hovertrain",
+    "phonetic": "/ˈhɒv.ər.treɪn/",
+    "tip": "Nhấn HOV, TRAIN liền mạch",
+    "level": "advanced",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "vehicles_e_270",
+    "word": "Battleship",
+    "phonetic": "/ˈbæt.əl.ʃɪp/",
+    "tip": "Nhấn BAT-tl, đuôi SHIP",
+    "level": "advanced",
+    "subject": "vehicles",
+    "game_mode": "voice_runner",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_b_271",
+    "word": "Spoon",
+    "phonetic": "/spuːn/",
+    "tip": "Bắt đầu SP, kéo dài OO, khép N",
+    "level": "basic",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_b_272",
+    "word": "Fork",
+    "phonetic": "/fɔːrk/",
+    "tip": "Bắt đầu F, âm OR uốn lưỡi, bật K",
+    "level": "basic",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_b_273",
+    "word": "Knife",
+    "phonetic": "/naɪf/",
+    "tip": "Câm K, nguyên âm AI, kết thúc F",
+    "level": "basic",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_b_274",
+    "word": "Plate",
+    "phonetic": "/pleɪt/",
+    "tip": "Nối PL, nguyên âm đôi EI, bật T",
+    "level": "basic",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_b_275",
+    "word": "Bowl",
+    "phonetic": "/boʊl/",
+    "tip": "Bắt đầu B, nguyên âm OU, cong L",
+    "level": "basic",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_b_276",
+    "word": "Cup",
+    "phonetic": "/kʌp/",
+    "tip": "Bật K, âm Á, kết thúc ngậm P",
+    "level": "basic",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_b_277",
+    "word": "Glass",
+    "phonetic": "/ɡlæs/",
+    "tip": "Bắt đầu GL, âm A bẹt, kết thúc S",
+    "level": "basic",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_b_278",
+    "word": "Pan",
+    "phonetic": "/pæn/",
+    "tip": "Bật P mạnh, âm A bẹt, khép N",
+    "level": "basic",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_b_279",
+    "word": "Pot",
+    "phonetic": "/pɒt/",
+    "tip": "Bật hơi P, nguyên âm O, bật T",
+    "level": "basic",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_b_280",
+    "word": "Dish",
+    "phonetic": "/dɪʃ/",
+    "tip": "Bắt đầu D, âm I ngắn, chu môi SH",
+    "level": "basic",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_b_281",
+    "word": "Mug",
+    "phonetic": "/mʌɡ/",
+    "tip": "Bắt đầu M, âm Á, kết thúc G nhẹ",
+    "level": "basic",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_b_282",
+    "word": "Bottle",
+    "phonetic": "/ˈbɒt.əl/",
+    "tip": "Nhấn BOT, đuôi UHL cong lưỡi",
+    "level": "basic",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_b_283",
+    "word": "Jar",
+    "phonetic": "/dʒɑːr/",
+    "tip": "Bật J rung vòm, âm AR uốn lưỡi",
+    "level": "basic",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_b_284",
+    "word": "Tray",
+    "phonetic": "/treɪ/",
+    "tip": "Nối TR, nguyên âm đôi EI kéo dài",
+    "level": "basic",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_b_285",
+    "word": "Straw",
+    "phonetic": "/strɔː/",
+    "tip": "Bắt đầu STR, kéo dài âm AW",
+    "level": "basic",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_i_286",
+    "word": "Whisk",
+    "phonetic": "/wɪsk/",
+    "tip": "Âm W tròn môi, âm ISK có SK",
+    "level": "medium",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_i_287",
+    "word": "Spatula",
+    "phonetic": "/ˈspætʃ.ʊ.lə/",
+    "tip": "Nhấn SPAT, âm CHOO, đuôi LUH",
+    "level": "medium",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_i_288",
+    "word": "Blender",
+    "phonetic": "/ˈblɛn.dər/",
+    "tip": "Nối BL, nhấn BLEN, đuôi DER",
+    "level": "medium",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_i_289",
+    "word": "Kettle",
+    "phonetic": "/ˈkɛt.əl/",
+    "tip": "Nhấn KET, đuôi UHL cong lưỡi",
+    "level": "medium",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_i_290",
+    "word": "Toaster",
+    "phonetic": "/ˈtoʊ.stər/",
+    "tip": "Nhấn TOHST có S, đuôi TER",
+    "level": "medium",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_i_291",
+    "word": "Peeler",
+    "phonetic": "/ˈpiː.lər/",
+    "tip": "Kéo dài PEE, đuôi LER uốn lưỡi",
+    "level": "medium",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_i_292",
+    "word": "Grater",
+    "phonetic": "/ˈɡreɪ.tər/",
+    "tip": "Nhấn GRAY, đuôi TER nhẹ",
+    "level": "medium",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_i_293",
+    "word": "Tongs",
+    "phonetic": "/tɒŋz/",
+    "tip": "Bắt đầu T, kết thúc NGZ có Z",
+    "level": "medium",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_i_294",
+    "word": "Ladle",
+    "phonetic": "/ˈleɪ.dəl/",
+    "tip": "Nhấn LAY, đuôi DUHL cong L",
+    "level": "medium",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_i_295",
+    "word": "Colander",
+    "phonetic": "/ˈkɒl.ən.dər/",
+    "tip": "Nhấn COL cong L, đuôi DER",
+    "level": "medium",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_i_296",
+    "word": "Chopping board",
+    "phonetic": "/ˈtʃɒp.ɪŋ ˌbɔːrd/",
+    "tip": "Nhấn CHOP-ing, BOARD uốn",
+    "level": "medium",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_i_297",
+    "word": "Microwave",
+    "phonetic": "/ˈmaɪ.krəˌweɪv/",
+    "tip": "Nhấn MY-kro, đuôi WAYV có V",
+    "level": "medium",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_i_298",
+    "word": "Scissors",
+    "phonetic": "/ˈsɪz.ərz/",
+    "tip": "Âm S ban đầu, hai âm Z rung",
+    "level": "medium",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_i_299",
+    "word": "Apron",
+    "phonetic": "/ˈeɪ.prən/",
+    "tip": "Nhấn AY, đuôi PRUHN nhẹ",
+    "level": "medium",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_i_300",
+    "word": "Corkscrew",
+    "phonetic": "/ˈkɔːrk.skruː/",
+    "tip": "Nhấn CORK, SKROO kéo dài",
+    "level": "medium",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_e_301",
+    "word": "Mandoline",
+    "phonetic": "/ˈmæn.dəl.ɪn/",
+    "tip": "Dụng cụ bào thái, nhấn MAN",
+    "level": "advanced",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_e_302",
+    "word": "Chinois",
+    "phonetic": "/ʃɪnˈwɑː/",
+    "tip": "Rây lọc nón Pháp, nhấn WAA",
+    "level": "advanced",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_e_303",
+    "word": "Ramekin",
+    "phonetic": "/ˈræm.ɪ.kɪn/",
+    "tip": "Bát sứ nướng, nhấn RAM",
+    "level": "advanced",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_e_304",
+    "word": "Cruet",
+    "phonetic": "/ˈkruː.ɪt/",
+    "tip": "Bình gia vị nhỏ, nhấn KROO",
+    "level": "advanced",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_e_305",
+    "word": "Decanter",
+    "phonetic": "/dɪˈkæn.tər/",
+    "tip": "Bình chiết rượu, nhấn CAN",
+    "level": "advanced",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_e_306",
+    "word": "Mortar and pestle",
+    "phonetic": "/ˌmɔː.tər ən ˈpɛs.əl/",
+    "tip": "Cối và chày, nhấn MOR & PES",
+    "level": "advanced",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_e_307",
+    "word": "Pressure cooker",
+    "phonetic": "/ˈprɛʃ.ər ˌkʊk.ər/",
+    "tip": "Nồi áp suất, nhấn PRESH-er",
+    "level": "advanced",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_e_308",
+    "word": "Percolator",
+    "phonetic": "/ˈpɜːr.kəˌleɪ.tər/",
+    "tip": "Ấm pha cà phê lọc, nhấn PUR",
+    "level": "advanced",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_e_309",
+    "word": "Salamander grill",
+    "phonetic": "/ˌsæl.əˈmæn.dər/",
+    "tip": "Bếp nướng bề mặt, nhấn MAN",
+    "level": "advanced",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_e_310",
+    "word": "Sous-vide",
+    "phonetic": "/suːˈviːd/",
+    "tip": "Nấu chân không, nhấn VEED",
+    "level": "advanced",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_e_311",
+    "word": "Thermomix",
+    "phonetic": "/ˈθɜːr.məˌmɪks/",
+    "tip": "Máy xay nấu đa năng, nhấn THUR",
+    "level": "advanced",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_e_312",
+    "word": "Nutcracker",
+    "phonetic": "/ˈnʌtˌkræk.ər/",
+    "tip": "Kìm kẹp hạt cứng, nhấn NUT",
+    "level": "advanced",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_e_313",
+    "word": "Pepper mill",
+    "phonetic": "/ˈpɛp.ər ˌmɪl/",
+    "tip": "Cối xay tiêu, nhấn PEP-er",
+    "level": "advanced",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_e_314",
+    "word": "Cleaver",
+    "phonetic": "/ˈkliː.vər/",
+    "tip": "Dao phay lớn chặt thịt, nhấn CLEEV",
+    "level": "advanced",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "kitchen_e_315",
+    "word": "Basting brush",
+    "phonetic": "/ˈbeɪ.stɪŋ ˌbrʌʃ/",
+    "tip": "Chổi phết bơ gia vị, nhấn BAY-sting",
+    "level": "advanced",
+    "subject": "kitchen",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_b_316",
+    "word": "Vietnam",
+    "phonetic": "/ˌvjɛtˈnɑːm/",
+    "tip": "Nhấn NAAM kéo dài, âm T nhẹ",
+    "level": "basic",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_b_317",
+    "word": "Japan",
+    "phonetic": "/dʒəˈpæn/",
+    "tip": "Âm JUH lướt, nhấn PAN mở rộng",
+    "level": "basic",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_b_318",
+    "word": "China",
+    "phonetic": "/ˈtʃaɪ.nə/",
+    "tip": "Bật CH, nhấn CHAI, đuôi NUH",
+    "level": "basic",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_b_319",
+    "word": "Korea",
+    "phonetic": "/kəˈriː.ə/",
+    "tip": "Âm KUH lướt, nhấn REE dài",
+    "level": "basic",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_b_320",
+    "word": "England",
+    "phonetic": "/ˈɪŋ.ɡlənd/",
+    "tip": "Nhấn ING, đuôi GLUHND có D",
+    "level": "basic",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_b_321",
+    "word": "France",
+    "phonetic": "/frɑːns/",
+    "tip": "Bắt đầu FR, nguyên âm AHN, đuôi S",
+    "level": "basic",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_b_322",
+    "word": "America",
+    "phonetic": "/əˈmɛr.ɪ.kə/",
+    "tip": "Âm UH lướt, nhấn MER, đuôi KUH",
+    "level": "basic",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_b_323",
+    "word": "Canada",
+    "phonetic": "/ˈkæn.ə.də/",
+    "tip": "Nhấn CAN mở miệng, hai âm sau nhẹ",
+    "level": "basic",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_b_324",
+    "word": "Brazil",
+    "phonetic": "/brəˈzɪl/",
+    "tip": "Âm BRUH lướt, nhấn ZIL cong L",
+    "level": "basic",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_b_325",
+    "word": "Spain",
+    "phonetic": "/speɪn/",
+    "tip": "Bắt đầu SP, nguyên âm đôi AIN",
+    "level": "basic",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_b_326",
+    "word": "Italy",
+    "phonetic": "/ˈɪt.əl.i/",
+    "tip": "Nhấn IT dứt khoát, đuôi UHL-ee",
+    "level": "basic",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_b_327",
+    "word": "Germany",
+    "phonetic": "/ˈdʒɜːr.mə.ni/",
+    "tip": "Bật J, nhấn JUR uốn lưỡi",
+    "level": "basic",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_b_328",
+    "word": "Russia",
+    "phonetic": "/ˈrʌʃ.ə/",
+    "tip": "Nhấn RUSH âm Á, đuôi SHUH mềm",
+    "level": "basic",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_b_329",
+    "word": "India",
+    "phonetic": "/ˈɪn.di.ə/",
+    "tip": "Nhấn IN, đuôi DEE-uh mềm",
+    "level": "basic",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_b_330",
+    "word": "Thailand",
+    "phonetic": "/ˈtaɪ.lænd/",
+    "tip": "Câm H, đọc TAI, đuôi LAND có D",
+    "level": "basic",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_i_331",
+    "word": "Australia",
+    "phonetic": "/ɒsˈtreɪ.li.ə/",
+    "tip": "Nhấn TRAY, đuôi LEE-uh",
+    "level": "medium",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_i_332",
+    "word": "Singapore",
+    "phonetic": "/ˌsɪŋ.əˈpɔːr/",
+    "tip": "Nhấn chính POR uốn lưỡi sâu",
+    "level": "medium",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_i_333",
+    "word": "Malaysia",
+    "phonetic": "/məˈleɪ.ʒə/",
+    "tip": "Nhấn LAY, đuôi ZHUH rung",
+    "level": "medium",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_i_334",
+    "word": "Indonesia",
+    "phonetic": "/ˌɪn.dəˈniː.ʒə/",
+    "tip": "Nhấn NEE dài, đuôi ZHUH",
+    "level": "medium",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_i_335",
+    "word": "Philippines",
+    "phonetic": "/ˈfɪl.ɪ.piːnz/",
+    "tip": "Nhấn FIL, đuôi PEENZ có Z",
+    "level": "medium",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_i_336",
+    "word": "Switzerland",
+    "phonetic": "/ˈswɪt.sər.lənd/",
+    "tip": "Nhấn SWIT, đuôi SER-luhnd",
+    "level": "medium",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_i_337",
+    "word": "Netherlands",
+    "phonetic": "/ˈnɛð.ər.ləndz/",
+    "tip": "Thè lưỡi TH, nhấn NETH-er",
+    "level": "medium",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_i_338",
+    "word": "Portugal",
+    "phonetic": "/ˈpɔːr.tʃʊ.ɡəl/",
+    "tip": "Nhấn POR uốn lưỡi, đuôi GUHL",
+    "level": "medium",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_i_339",
+    "word": "Argentina",
+    "phonetic": "/ˌɑːr.dʒənˈtiː.nə/",
+    "tip": "Nhấn TEE kéo dài, đuôi NUH",
+    "level": "medium",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_i_340",
+    "word": "Mexico",
+    "phonetic": "/ˈmɛk.sɪ.koʊ/",
+    "tip": "Nhấn MEK, đuôi SI-kou",
+    "level": "medium",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_i_341",
+    "word": "Egypt",
+    "phonetic": "/ˈiː.dʒɪpt/",
+    "tip": "Nhấn EE dài, đuôi JIPT có PT",
+    "level": "medium",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_i_342",
+    "word": "Greece",
+    "phonetic": "/ɡriːs/",
+    "tip": "Bắt đầu GR, kéo dài EE, đuôi S",
+    "level": "medium",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_i_343",
+    "word": "Sweden",
+    "phonetic": "/ˈswiː.dən/",
+    "tip": "Nhấn SWEE dài, đuôi DUHN",
+    "level": "medium",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_i_344",
+    "word": "Norway",
+    "phonetic": "/ˈnɔːr.weɪ/",
+    "tip": "Nhấn NOR uốn lưỡi, đuôi WAY",
+    "level": "medium",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_i_345",
+    "word": "Poland",
+    "phonetic": "/ˈpoʊ.lənd/",
+    "tip": "Nhấn POHL cong L, đuôi LUHND",
+    "level": "medium",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_e_346",
+    "word": "Liechtenstein",
+    "phonetic": "/ˈlɪk.tənˌʃtaɪn/",
+    "tip": "Nhấn LIK, đuôi SHTAIN",
+    "level": "advanced",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_e_347",
+    "word": "Luxembourg",
+    "phonetic": "/ˈlʌk.səm.bɜːrɡ/",
+    "tip": "Nhấn LUK, đuôi BURG uốn",
+    "level": "advanced",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_e_348",
+    "word": "Madagascar",
+    "phonetic": "/ˌmæd.əˈɡæs.kər/",
+    "tip": "Nhấn GAS, đuôi KER",
+    "level": "advanced",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_e_349",
+    "word": "Mozambique",
+    "phonetic": "/ˌmoʊ.zæmˈbiːk/",
+    "tip": "Nhấn BEEK kéo dài có K",
+    "level": "advanced",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_e_350",
+    "word": "Azerbaijan",
+    "phonetic": "/ˌæz.ər.baɪˈdʒɑːn/",
+    "tip": "Nhấn JAAN kéo dài",
+    "level": "advanced",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_e_351",
+    "word": "Kyrgyzstan",
+    "phonetic": "/ˌkɜːr.ɡɪzˈstɑːn/",
+    "tip": "Nhấn STAAN kéo dài",
+    "level": "advanced",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_e_352",
+    "word": "Kazakhstan",
+    "phonetic": "/ˌkæz.ækˈstɑːn/",
+    "tip": "Nhấn STAAN kéo dài",
+    "level": "advanced",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_e_353",
+    "word": "Papua New Guinea",
+    "phonetic": "/ˌpæp.u.ə njuː ˈɡɪn.i/",
+    "tip": "Nhấn PAP, NEW, GIN-ee",
+    "level": "advanced",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_e_354",
+    "word": "Seychelles",
+    "phonetic": "/seɪˈʃɛlz/",
+    "tip": "Nhấn SHELZ có âm LZ",
+    "level": "advanced",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_e_355",
+    "word": "Zimbabwe",
+    "phonetic": "/zɪmˈbɑːb.weɪ/",
+    "tip": "Nhấn BAAB, đuôi WAY",
+    "level": "advanced",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_e_356",
+    "word": "Mauritius",
+    "phonetic": "/məˈrɪʃ.əs/",
+    "tip": "Nhấn RISH, đuôi UHS",
+    "level": "advanced",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_e_357",
+    "word": "Fiji",
+    "phonetic": "/ˈfiː.dʒiː/",
+    "tip": "Nhấn FEE, đuôi JEE dài",
+    "level": "advanced",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_e_358",
+    "word": "Guatemala",
+    "phonetic": "/ˌɡwɑː.təˈmɑː.lə/",
+    "tip": "Nhấn MAAH dài, đuôi LUH",
+    "level": "advanced",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_e_359",
+    "word": "Uruguay",
+    "phonetic": "/ˈjʊər.ə.ɡwaɪ/",
+    "tip": "Nhấn YUR, đuôi GWAI",
+    "level": "advanced",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "countries_e_360",
+    "word": "Venezuela",
+    "phonetic": "/ˌvɛn.əˈzweɪ.lə/",
+    "tip": "Nhấn ZWAY, đuôi LUH",
+    "level": "advanced",
+    "subject": "countries",
+    "game_mode": "category_rush",
+    "accepted_variants": []
+  },
+  {
+    "id": "daily_b_001",
+    "word": "Alarm",
+    "phonetic": "/əˈlɑːrm/",
+    "tip": "Bật âm L, kéo dài âm AR",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "buzzer"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_b_002",
+    "word": "Coffee",
+    "phonetic": "/ˈkɒfi/",
+    "tip": "Bật C, kết thúc I ngắn",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "espresso"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_b_003",
+    "word": "Breakfast",
+    "phonetic": "/ˈbrɛkfəst/",
+    "tip": "Nối BR, nhấn âm 1, bật ST",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "brunch"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_b_004",
+    "word": "Shower",
+    "phonetic": "/ˈʃaʊər/",
+    "tip": "Chu môi âm SH, nguyên âm đôi OW",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "bath"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_b_005",
+    "word": "Mirror",
+    "phonetic": "/ˈmɪrər/",
+    "tip": "Âm I ngắn, cuộn lưỡi R đôi",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "glass"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_b_006",
+    "word": "Toothbrush",
+    "phonetic": "/ˈtuːθbrʌʃ/",
+    "tip": "Kéo dài OO, đẩy hơi TH",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "brush"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_b_007",
+    "word": "Clothes",
+    "phonetic": "/kloʊðz/",
+    "tip": "Nối KL, đưa lưỡi âm TH hữu thanh",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "clothing",
+      "attire"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_b_008",
+    "word": "Shoes",
+    "phonetic": "/ʃuːz/",
+    "tip": "Chu môi SH, kéo dài OO, rung Z",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "sneakers",
+      "boots"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_b_009",
+    "word": "Wallet",
+    "phonetic": "/ˈwɒlɪt/",
+    "tip": "Tròn môi W, bật T cuối",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "purse"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_b_010",
+    "word": "Keys",
+    "phonetic": "/kiːz/",
+    "tip": "Bật K, kéo dài I, rung Z",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "key"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_b_011",
+    "word": "Backpack",
+    "phonetic": "/ˈbækpæk/",
+    "tip": "Hai lần âm A bẹt, bật K",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "bag",
+      "pack"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_b_012",
+    "word": "Umbrella",
+    "phonetic": "/ʌmˈbrɛlə/",
+    "tip": "Nhấn âm 2 BRE, kết thúc LƠ",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "brolly"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_b_013",
+    "word": "Lunch",
+    "phonetic": "/lʌntʃ/",
+    "tip": "Âm Á ngắn, kết thúc CH bật hơi",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "meal"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_b_014",
+    "word": "Dinner",
+    "phonetic": "/ˈdɪnər/",
+    "tip": "Âm I ngắn, cuộn lưỡi R cuối",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "supper"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_b_015",
+    "word": "Blanket",
+    "phonetic": "/ˈblæŋkɪt/",
+    "tip": "Âm A bẹt, khép NG, bật T",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "quilt"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_b_016",
+    "word": "Pillow",
+    "phonetic": "/ˈpɪloʊ/",
+    "tip": "Bật P nhẹ, kết thúc OU",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "cushion"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_b_017",
+    "word": "Window",
+    "phonetic": "/ˈwɪndoʊ/",
+    "tip": "Hai âm W, kết thúc OU",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "pane"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_b_018",
+    "word": "Door",
+    "phonetic": "/dɔːr/",
+    "tip": "Bật D, uốn lưỡi âm OR",
+    "level": "basic",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "doorway"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_001",
+    "word": "Schedule",
+    "phonetic": "/ˈskɛdʒuːl/",
+    "tip": "Bật SK, nhấn âm 1, kéo dài U",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "timetable"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_002",
+    "word": "Commute",
+    "phonetic": "/kəˈmjuːt/",
+    "tip": "Âm Ơ nhẹ, nhấn Mju, bật T",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "travel"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_003",
+    "word": "Routine",
+    "phonetic": "/ruːˈtiːn/",
+    "tip": "Kéo dài âm U và âm I, khép N",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "habit"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_004",
+    "word": "Grocery",
+    "phonetic": "/ˈɡroʊsəri/",
+    "tip": "Nối GR, nhấn âm GROU",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "food",
+      "groceries"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_005",
+    "word": "Laundry",
+    "phonetic": "/ˈlɔːndri/",
+    "tip": "Kéo dài âm O, nối DR",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "washing"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_006",
+    "word": "Receipt",
+    "phonetic": "/rɪˈsiːt/",
+    "tip": "Âm P câm, nhấn SI kéo dài, bật T",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "bill",
+      "ticket"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_007",
+    "word": "Discount",
+    "phonetic": "/ˈdɪskaʊnt/",
+    "tip": "Bật D, nhấn DIS, nguyên âm OW",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "sale",
+      "rebate"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_008",
+    "word": "Elevator",
+    "phonetic": "/ˈɛlɪveɪtər/",
+    "tip": "Nhấn âm 1 EL, bật T cuối",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "lift"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_009",
+    "word": "Calendar",
+    "phonetic": "/ˈkælɪndər/",
+    "tip": "Âm A bẹt, cuộn R cuối",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "datebook"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_010",
+    "word": "Pharmacy",
+    "phonetic": "/ˈfɑːrməsi/",
+    "tip": "Âm F bật nhẹ, nhấn FAR",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "drugstore",
+      "chemist"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_011",
+    "word": "Apartment",
+    "phonetic": "/əˈpɑːrtmənt/",
+    "tip": "Nhấn PART uốn lưỡi, bật T",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "flat",
+      "condo"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_012",
+    "word": "Balcony",
+    "phonetic": "/ˈbælkəni/",
+    "tip": "Âm A bẹt, nhấn BAL",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "terrace"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_013",
+    "word": "Kitchenette",
+    "phonetic": "/ˌkɪtʃɪˈnɛt/",
+    "tip": "Nhấn âm NET cuối, bật T",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "mini-kitchen"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_014",
+    "word": "Neighbor",
+    "phonetic": "/ˈneɪbər/",
+    "tip": "Nguyên âm đôi EI, cuộn R",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "neighbour"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_015",
+    "word": "Appliance",
+    "phonetic": "/əˈplaɪəns/",
+    "tip": "Nhấn PLAI, kết thúc S xì",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "device"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_016",
+    "word": "Microwave",
+    "phonetic": "/ˈmaɪkrəweɪv/",
+    "tip": "Nhấn MAI, kết thúc V rung",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "micro"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_017",
+    "word": "Dishwasher",
+    "phonetic": "/ˈdɪʃwɒʃər/",
+    "tip": "Hai lần chu môi âm SH",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "washer"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_i_018",
+    "word": "Refrigerator",
+    "phonetic": "/rɪˈfrɪdʒəreɪtər/",
+    "tip": "Nhấn âm FRI, kết thúc TƠ",
+    "level": "medium",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "fridge"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_001",
+    "word": "Procrastination",
+    "phonetic": "/prəˌkræstɪˈneɪʃn/",
+    "tip": "Nhấn âm NAY, đuôi SHN",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "delay"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_002",
+    "word": "Multitasking",
+    "phonetic": "/ˌmʌltiˈtæskɪŋ/",
+    "tip": "Âm A bẹt TAS, đuôi ING",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "multitask"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_003",
+    "word": "Ergonomics",
+    "phonetic": "/ˌɜːrɡəˈnɒmɪks/",
+    "tip": "Uốn lưỡi ER, nhấn NOM",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "comfort"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_004",
+    "word": "Punctuality",
+    "phonetic": "/ˌpʌŋktʃuˈæləti/",
+    "tip": "Bật PUNGK, nhấn AL",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "promptness"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_005",
+    "word": "Maintenance",
+    "phonetic": "/ˈmeɪntənəns/",
+    "tip": "Nhấn MAIN, kết thúc NS",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "upkeep"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_006",
+    "word": "Accommodation",
+    "phonetic": "/əˌkɒməˈdeɪʃn/",
+    "tip": "Nhấn DAY, đuôi SHN",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "lodging",
+      "housing"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_007",
+    "word": "Electricity",
+    "phonetic": "/ɪˌlɛkˈtrɪsəti/",
+    "tip": "Nhấn TRIS, kết thúc TI",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "power"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_008",
+    "word": "Organization",
+    "phonetic": "/ˌɔːrɡənaɪˈzeɪʃn/",
+    "tip": "Uốn lưỡi OR, nhấn ZAY",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "organisation"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_009",
+    "word": "Sustainability",
+    "phonetic": "/səˌsteɪnəˈbɪləti/",
+    "tip": "Nhấn BIL, kết thúc TI",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "green"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_010",
+    "word": "Prioritization",
+    "phonetic": "/praɪˌɒrɪtaɪˈzeɪʃn/",
+    "tip": "Nhấn ZAY, đuôi SHN",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "prioritisation"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_011",
+    "word": "Choreography",
+    "phonetic": "/ˌkɒriˈɒɡrəfi/",
+    "tip": "Bật K, nhấn OG, kết thúc FI",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "dance"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_012",
+    "word": "Troubleshooting",
+    "phonetic": "/ˈtrʌblʃuːtɪŋ/",
+    "tip": "Bật TR, nhấn SHU kéo dài",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "debugging"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_013",
+    "word": "Consciousness",
+    "phonetic": "/ˈkɒnʃəsnəs/",
+    "tip": "Nhấn KON, chu môi SH, đuôi NES",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "awareness"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_014",
+    "word": "Commemoration",
+    "phonetic": "/kəˌmɛməˈreɪʃn/",
+    "tip": "Nhấn RAY, đuôi SHN",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "memorial"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_015",
+    "word": "Neighborhood",
+    "phonetic": "/ˈneɪbərhʊd/",
+    "tip": "Nhấn NAY, kết thúc HUD",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "neighbourhood"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_016",
+    "word": "Documentation",
+    "phonetic": "/ˌdɒkjumɛnˈteɪʃn/",
+    "tip": "Nhấn TAY, đuôi SHN",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "records",
+      "docs"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_017",
+    "word": "Infrastructure",
+    "phonetic": "/ˈɪnfrəstrʌktʃər/",
+    "tip": "Nhấn IN, bật STRUK, đuôi CHƠ",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "framework"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "daily_e_018",
+    "word": "Unprecedented",
+    "phonetic": "/ʌnˈprɛsɪdɛntɪd/",
+    "tip": "Nhấn PRES, bật T cuối",
+    "level": "advanced",
+    "subject": "daily_words",
+    "accepted_variants": [
+      "novel"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_001",
+    "word": "Pizza",
+    "phonetic": "/ˈpiːtsə/",
+    "tip": "Kéo dài âm I, bật TS",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "pie"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_002",
+    "word": "Burger",
+    "phonetic": "/ˈbɜːrɡər/",
+    "tip": "Uốn lưỡi hai âm R, bật G",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "hamburger"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_003",
+    "word": "Bread",
+    "phonetic": "/brɛd/",
+    "tip": "Nối BR, âm E ngắn, bật D",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "loaf"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_004",
+    "word": "Cheese",
+    "phonetic": "/tʃiːz/",
+    "tip": "Bật CH, kéo dài I, rung Z",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "cheddar"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_005",
+    "word": "Butter",
+    "phonetic": "/ˈbʌtər/",
+    "tip": "Âm Á ngắn, kết thúc TƠ",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "margarine"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_006",
+    "word": "Salad",
+    "phonetic": "/ˈsæləd/",
+    "tip": "Âm A bẹt, kết thúc D",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "greens"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_007",
+    "word": "Soup",
+    "phonetic": "/suːp/",
+    "tip": "Kéo dài âm U, bật P nhẹ",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "broth"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_008",
+    "word": "Steak",
+    "phonetic": "/steɪk/",
+    "tip": "Nguyên âm đôi EI, bật K",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "beefsteak"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_009",
+    "word": "Noodles",
+    "phonetic": "/ˈnuːdlz/",
+    "tip": "Kéo dài U, kết thúc LZ",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "pasta",
+      "ramen"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_010",
+    "word": "Rice",
+    "phonetic": "/raɪs/",
+    "tip": "Uốn lưỡi R, nguyên âm AI, xì S",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "grain"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_011",
+    "word": "Fruit",
+    "phonetic": "/fruːt/",
+    "tip": "Nối FR, kéo dài U, bật T",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "fruits"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_012",
+    "word": "Juice",
+    "phonetic": "/dʒuːs/",
+    "tip": "Bật J rung, kéo dài U, xì S",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "drink"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_013",
+    "word": "Ticket",
+    "phonetic": "/ˈtɪkɪt/",
+    "tip": "Âm I ngắn, bật K và T",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "pass"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_014",
+    "word": "Passport",
+    "phonetic": "/ˈpɑːspɔːrt/",
+    "tip": "Kéo dài A, uốn lưỡi ORT",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "id"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_015",
+    "word": "Airport",
+    "phonetic": "/ˈɛərpɔːrt/",
+    "tip": "Nguyên âm AIR, uốn lưỡi ORT",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "airfield"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_016",
+    "word": "Flight",
+    "phonetic": "/flaɪt/",
+    "tip": "Nối FL, nguyên âm AI, bật T",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "trip"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_017",
+    "word": "Hotel",
+    "phonetic": "/hoʊˈtɛl/",
+    "tip": "Nhấn âm 2 TEL, cong lưỡi L",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "motel",
+      "inn"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_b_018",
+    "word": "Beach",
+    "phonetic": "/biːtʃ/",
+    "tip": "Kéo dài I, kết thúc CH bật hơi",
+    "level": "basic",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "seaside",
+      "shore"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_001",
+    "word": "Croissant",
+    "phonetic": "/krwɑːˈsɒŋ/",
+    "tip": "Âm Pháp, nhấn SONG kéo dài",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "pastry"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_002",
+    "word": "Spaghetti",
+    "phonetic": "/spəˈɡɛti/",
+    "tip": "Nối SP, nhấn GET, kết thúc TI",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "pasta"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_003",
+    "word": "Sandwich",
+    "phonetic": "/ˈsænwɪtʃ/",
+    "tip": "Âm A bẹt, kết thúc WICH",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "sub",
+      "burger"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_004",
+    "word": "Barbecue",
+    "phonetic": "/ˈbɑːrbɪkjuː/",
+    "tip": "Uốn lưỡi BAR, kết thúc KJU",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "bbq",
+      "barbeque"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_005",
+    "word": "Dessert",
+    "phonetic": "/dɪˈzɜːrt/",
+    "tip": "Nhấn ZERT uốn lưỡi, bật T",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "sweet",
+      "pudding"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_006",
+    "word": "Beverage",
+    "phonetic": "/ˈbɛvərɪdʒ/",
+    "tip": "Nhấn BEV, kết thúc IDZH",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "drink",
+      "soda"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_007",
+    "word": "Seafood",
+    "phonetic": "/ˈsiːfuːd/",
+    "tip": "Kéo dài cả hai âm I và U",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "fish"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_008",
+    "word": "Luggage",
+    "phonetic": "/ˈlʌɡɪdʒ/",
+    "tip": "Âm Á ngắn, kết thúc IDZH",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "baggage",
+      "bags"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_009",
+    "word": "Boarding",
+    "phonetic": "/ˈbɔːrdɪŋ/",
+    "tip": "Uốn lưỡi OR, đuôi ING",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "embarking"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_010",
+    "word": "Departure",
+    "phonetic": "/dɪˈpɑːrtʃər/",
+    "tip": "Nhấn PART uốn lưỡi, đuôi CHƠ",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "leaving"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_011",
+    "word": "Arrival",
+    "phonetic": "/əˈraɪvl/",
+    "tip": "Nhấn RAI, kết thúc VL",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "landing"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_012",
+    "word": "Destination",
+    "phonetic": "/ˌdɛstɪˈneɪʃn/",
+    "tip": "Nhấn NAY, đuôi SHN",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "stop"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_013",
+    "word": "Souvenir",
+    "phonetic": "/ˌsuːvəˈnɪər/",
+    "tip": "Kéo dài SU, nhấn NIƠ",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "keepsake",
+      "gift"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_014",
+    "word": "Reservation",
+    "phonetic": "/ˌrɛzərˈveɪʃn/",
+    "tip": "Nhấn VAY, đuôi SHN",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "booking"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_015",
+    "word": "Cuisine",
+    "phonetic": "/kwɪˈziːn/",
+    "tip": "Bật KW, kéo dài ZIN",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "food",
+      "dishes"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_016",
+    "word": "Appetizer",
+    "phonetic": "/ˈæpɪtaɪzər/",
+    "tip": "Nhấn AP, nguyên âm TAI, đuôi ZƠ",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "starter"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_017",
+    "word": "Buffet",
+    "phonetic": "/ˈbʊfeɪ/",
+    "tip": "Nhấn FAY kéo dài, T câm",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "smorgasbord"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_i_018",
+    "word": "Delicious",
+    "phonetic": "/dɪˈlɪʃəs/",
+    "tip": "Nhấn LISH chu môi, đuôi ƠS",
+    "level": "medium",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "yummy",
+      "tasty"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_001",
+    "word": "Delicacy",
+    "phonetic": "/ˈdɛlɪkəsi/",
+    "tip": "Nhấn DEL, kết thúc SI",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "treat"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_002",
+    "word": "Confectionery",
+    "phonetic": "/kənˈfɛkʃənəri/",
+    "tip": "Nhấn FEK, đuôi NƠRI",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "sweets",
+      "candy"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_003",
+    "word": "Gastronomy",
+    "phonetic": "/ɡæˈstrɒnəmi/",
+    "tip": "Nhấn STRON, kết thúc MI",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "culinary"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_004",
+    "word": "Itinerary",
+    "phonetic": "/aɪˈtɪnərəri/",
+    "tip": "Nhấn TIN, kết thúc RƠRI",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "route",
+      "schedule"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_005",
+    "word": "Sommelier",
+    "phonetic": "/sɒmˈɛljeɪ/",
+    "tip": "Âm Pháp, nhấn YAY",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "wine-expert"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_006",
+    "word": "Mediterranean",
+    "phonetic": "/ˌmɛdɪtəˈreɪniən/",
+    "tip": "Nhấn RAY, kết thúc NIƠN",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "med"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_007",
+    "word": "Caramelized",
+    "phonetic": "/ˈkærəməlaɪzd/",
+    "tip": "Nhấn KAR, nguyên âm LAIZ, bật D",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "caramelised"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_008",
+    "word": "Charcuterie",
+    "phonetic": "/ʃɑːrˈkuːtəri/",
+    "tip": "Chu môi SHAR, nhấn KU kéo dài",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "cold-cuts"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_009",
+    "word": "Fermentation",
+    "phonetic": "/ˌfɜːrmɛnˈteɪʃn/",
+    "tip": "Uốn lưỡi FER, nhấn TAY",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "ferment"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_010",
+    "word": "Authenticity",
+    "phonetic": "/ˌɔːθɛnˈtɪsəti/",
+    "tip": "Âm TH đẩy hơi, nhấn TIS",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "genuineness"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_011",
+    "word": "Circumference",
+    "phonetic": "/sərˈkʌmfərəns/",
+    "tip": "Nhấn KUM, kết thúc RƠNS",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "perimeter"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_012",
+    "word": "Picturesque",
+    "phonetic": "/ˌpɪktʃəˈrɛsk/",
+    "tip": "Nhấn RESK, bật SK",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "scenic"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_013",
+    "word": "Refreshment",
+    "phonetic": "/rɪˈfrɛʃmənt/",
+    "tip": "Nhấn FRESH chu môi, bật T",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "snacks"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_014",
+    "word": "Condiment",
+    "phonetic": "/ˈkɒndɪmənt/",
+    "tip": "Nhấn KON, kết thúc MƠNT",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "sauce",
+      "spice"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_015",
+    "word": "Vegetarian",
+    "phonetic": "/ˌvɛdʒɪˈtɛəriən/",
+    "tip": "Nhấn TAIR, kết thúc RIƠN",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "veggie"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_016",
+    "word": "Pescatarian",
+    "phonetic": "/ˌpɛskəˈtɛəriən/",
+    "tip": "Nhấn TAIR, ăn cá",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "pescetarian"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_017",
+    "word": "Unforgettable",
+    "phonetic": "/ˌʌnfərˈɡɛtəbl/",
+    "tip": "Uốn lưỡi FOR, nhấn GET, đuôi BL",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "memorable"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tf_e_018",
+    "word": "Surcharge",
+    "phonetic": "/ˈsɜːrtʃɑːrdʒ/",
+    "tip": "Uốn lưỡi SER, nhấn CHARDZH",
+    "level": "advanced",
+    "subject": "travel_food",
+    "accepted_variants": [
+      "extra-fee"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_001",
+    "word": "Movie",
+    "phonetic": "/ˈmuːvi/",
+    "tip": "Kéo dài U, kết thúc VI",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "film",
+      "cinema"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_002",
+    "word": "Music",
+    "phonetic": "/ˈmjuːzɪk/",
+    "tip": "Bật Mju, rung Z, bật K",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "tune",
+      "song"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_003",
+    "word": "Dance",
+    "phonetic": "/dæns/",
+    "tip": "Âm A bẹt, kết thúc NS xì",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "dancing"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_004",
+    "word": "Actor",
+    "phonetic": "/ˈæktər/",
+    "tip": "Âm A bẹt, bật K, kết thúc TƠ",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "performer"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_005",
+    "word": "Stage",
+    "phonetic": "/steɪdʒ/",
+    "tip": "Nguyên âm đôi EI, kết thúc DZH",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "platform"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_006",
+    "word": "Guitar",
+    "phonetic": "/ɡɪˈtɑːr/",
+    "tip": "Âm I ngắn, nhấn TAR kéo dài",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "axe"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_007",
+    "word": "Piano",
+    "phonetic": "/piˈænoʊ/",
+    "tip": "Nhấn AN âm A bẹt, kết thúc OU",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "keys"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_008",
+    "word": "Drums",
+    "phonetic": "/drʌmz/",
+    "tip": "Nối DR, âm Á ngắn, rung MZ",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "drumset"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_009",
+    "word": "Soccer",
+    "phonetic": "/ˈsɒkər/",
+    "tip": "Âm O ngắn, kết thúc KƠ",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "football"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_010",
+    "word": "Tennis",
+    "phonetic": "/ˈtɛnɪs/",
+    "tip": "Nhấn TEN, kết thúc NIS xì",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "racket-sport"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_011",
+    "word": "Boxing",
+    "phonetic": "/ˈbɒksɪŋ/",
+    "tip": "Âm O ngắn, bật KS, đuôi ING",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "fight"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_012",
+    "word": "Runner",
+    "phonetic": "/ˈrʌnər/",
+    "tip": "Uốn lưỡi R, âm Á ngắn, đuôi NƠ",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "sprinter"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_013",
+    "word": "Winner",
+    "phonetic": "/ˈwɪnər/",
+    "tip": "Tròn môi W, âm I ngắn, đuôi NƠ",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "champion",
+      "victor"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_014",
+    "word": "Player",
+    "phonetic": "/ˈpleɪər/",
+    "tip": "Nối PL, nguyên âm đôi EI, đuôi Ơ",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "gamer",
+      "athlete"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_015",
+    "word": "Stadium",
+    "phonetic": "/ˈsteɪdiəm/",
+    "tip": "Nhấn STAY, kết thúc DIƠM",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "arena"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_016",
+    "word": "Medal",
+    "phonetic": "/ˈmɛdl/",
+    "tip": "Nhấn MED, kết thúc DL",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "award"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_017",
+    "word": "Trophy",
+    "phonetic": "/ˈtroʊfi/",
+    "tip": "Nối TR, nhấn TROU, kết thúc FI",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "cup"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_b_018",
+    "word": "Concert",
+    "phonetic": "/ˈkɒnsərt/",
+    "tip": "Nhấn KON, kết thúc SERT",
+    "level": "basic",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "show",
+      "gig"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_001",
+    "word": "Director",
+    "phonetic": "/dəˈrɛktər/",
+    "tip": "Nhấn REKT uốn lưỡi, bật T",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "filmmaker"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_002",
+    "word": "Cinema",
+    "phonetic": "/ˈsɪnəmə/",
+    "tip": "Nhấn SIN, kết thúc MƠ",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "theater",
+      "theatre"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_003",
+    "word": "Soundtrack",
+    "phonetic": "/ˈsaʊndtræk/",
+    "tip": "Nguyên âm OW, bật TR, A bẹt",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "ost",
+      "score"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_004",
+    "word": "Symphony",
+    "phonetic": "/ˈsɪmfəni/",
+    "tip": "Nhấn SIM, kết thúc NI",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "orchestra"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_005",
+    "word": "Festival",
+    "phonetic": "/ˈfɛstɪvl/",
+    "tip": "Nhấn FES, kết thúc VL",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "fest"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_006",
+    "word": "Tournament",
+    "phonetic": "/ˈtʊərnəmənt/",
+    "tip": "Nhấn TOUR, kết thúc MƠNT",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "tourney"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_007",
+    "word": "Referee",
+    "phonetic": "/ˌrɛfəˈriː/",
+    "tip": "Nhấn RI kéo dài",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "ref",
+      "umpire"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_008",
+    "word": "Athlete",
+    "phonetic": "/ˈæθliːt/",
+    "tip": "Âm A bẹt, đẩy hơi TH, kéo dài IT",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "sportsman"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_009",
+    "word": "Champion",
+    "phonetic": "/ˈtʃæmpiən/",
+    "tip": "Bật CH, A bẹt, kết thúc PIƠN",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "winner",
+      "champ"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_010",
+    "word": "Marathon",
+    "phonetic": "/ˈmærəθən/",
+    "tip": "Nhấn MAR, đẩy hơi TH, đuôi THƠN",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "race"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_011",
+    "word": "Gymnastics",
+    "phonetic": "/dʒɪmˈnæstɪks/",
+    "tip": "Bật J, nhấn NAS, bật KS",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "gym"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_012",
+    "word": "Badminton",
+    "phonetic": "/ˈbædmɪntən/",
+    "tip": "Âm A bẹt, kết thúc TƠN",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "shuttlecock"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_013",
+    "word": "Volleyball",
+    "phonetic": "/ˈvɒlibɔːl/",
+    "tip": "Rung V, nhấn VOL, kết thúc BOL",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "vball"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_014",
+    "word": "Basketball",
+    "phonetic": "/ˈbɑːskɪtbɔːl/",
+    "tip": "Nhấn BAS, kết thúc BOL",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "hoops"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_015",
+    "word": "Streaming",
+    "phonetic": "/ˈstriːmɪŋ/",
+    "tip": "Nối STR, kéo dài I, đuôi ING",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "stream"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_016",
+    "word": "Premiere",
+    "phonetic": "/ˈprɛmieər/",
+    "tip": "Nối PR, nhấn MIER",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "debut"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_017",
+    "word": "Audience",
+    "phonetic": "/ˈɔːdiəns/",
+    "tip": "Kéo dài O, kết thúc DIƠNS",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "crowd",
+      "viewers"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_i_018",
+    "word": "Costume",
+    "phonetic": "/ˈkɒstjuːm/",
+    "tip": "Nhấn KOS, kéo dài TJUUM",
+    "level": "medium",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "outfit"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_001",
+    "word": "Cinematography",
+    "phonetic": "/ˌsɪnəməˈtɒɡrəfi/",
+    "tip": "Nhấn TOG, kết thúc RƠFI",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "filming"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_002",
+    "word": "Choreographer",
+    "phonetic": "/ˌkɒriˈɒɡrəfər/",
+    "tip": "Bật K, nhấn OG, đuôi FƠ",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "dance-maker"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_003",
+    "word": "Improvisation",
+    "phonetic": "/ˌɪmprəvaɪˈzeɪʃn/",
+    "tip": "Nhấn ZAY, đuôi SHN",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "ad-lib",
+      "improv"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_004",
+    "word": "Blockbuster",
+    "phonetic": "/ˈblɒkbʌstər/",
+    "tip": "Bật BLOK, bật BAS, đuôi TƠ",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "hit",
+      "smash"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_005",
+    "word": "Sportsmanship",
+    "phonetic": "/ˈspɔːrtsmənʃɪp/",
+    "tip": "Uốn lưỡi SPORT, chu môi SHIP",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "fair-play"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_006",
+    "word": "Championship",
+    "phonetic": "/ˈtʃæmpiənʃɪp/",
+    "tip": "Nhấn CHAM, chu môi SHIP",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "title"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_007",
+    "word": "Quarterback",
+    "phonetic": "/ˈkwɔːrtərbæk/",
+    "tip": "Bật KW, uốn lưỡi OR, bật BAK",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "qb"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_008",
+    "word": "Decathlon",
+    "phonetic": "/dɪˈkæθlɒn/",
+    "tip": "Nhấn KATH đẩy hơi TH, đuôi LON",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "ten-events"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_009",
+    "word": "Equestrian",
+    "phonetic": "/ɪˈkwɛstriən/",
+    "tip": "Bật KWES, môn cưỡi ngựa",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "horse-riding"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_010",
+    "word": "Paralympic",
+    "phonetic": "/ˌpærəˈlɪmpɪk/",
+    "tip": "Nhấn LIM, kết thúc PIK",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "parasport"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_011",
+    "word": "Philharmonics",
+    "phonetic": "/ˌfɪlhɑːrˈmɒnɪks/",
+    "tip": "Nhấn MON, kết thúc NIKS",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "orchestra"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_012",
+    "word": "Synchronization",
+    "phonetic": "/ˌsɪŋkrənaɪˈzeɪʃn/",
+    "tip": "Nhấn ZAY, đuôi SHN",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "sync"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_013",
+    "word": "Entertainment",
+    "phonetic": "/ˌɛntərˈteɪnmənt/",
+    "tip": "Nhấn TAYN, kết thúc MƠNT",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "showbiz"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_014",
+    "word": "Documentary",
+    "phonetic": "/ˌdɒkjuˈmɛntri/",
+    "tip": "Nhấn MEN, kết thúc TRI",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "doc",
+      "docu"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_015",
+    "word": "Repercussions",
+    "phonetic": "/ˌriːpərˈkʌʃnz/",
+    "tip": "Uốn lưỡi PER, chu môi SHNZ",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "impact"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_016",
+    "word": "Screenwriter",
+    "phonetic": "/ˈskriːnraɪtər/",
+    "tip": "Nối SKR, kéo dài I, bật RAI",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "scriptwriter"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_017",
+    "word": "Playwright",
+    "phonetic": "/ˈpleɪraɪt/",
+    "tip": "Nối PL, nguyên âm EI, bật T",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "dramatist"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "es_e_018",
+    "word": "Spectator",
+    "phonetic": "/spɛkˈteɪtər/",
+    "tip": "Nối SP, nhấn TAY, đuôi TƠ",
+    "level": "advanced",
+    "subject": "entertainment_sports",
+    "accepted_variants": [
+      "onlooker"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_001",
+    "word": "Cool",
+    "phonetic": "/kuːl/",
+    "tip": "Kéo dài âm U, cong lưỡi L",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "awesome",
+      "neat"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_002",
+    "word": "Chill",
+    "phonetic": "/tʃɪl/",
+    "tip": "Bật CH, âm I ngắn, cong lưỡi L",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "relax",
+      "calm"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_003",
+    "word": "Bro",
+    "phonetic": "/broʊ/",
+    "tip": "Nối BR, nguyên âm đôi OU",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "brother",
+      "dude"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_004",
+    "word": "Dude",
+    "phonetic": "/duːd/",
+    "tip": "Bật D, kéo dài U, bật D cuối",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "guy",
+      "man"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_005",
+    "word": "Vibe",
+    "phonetic": "/vaɪb/",
+    "tip": "Rung V, nguyên âm AI, ngậm B",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "mood",
+      "feel"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_006",
+    "word": "Flex",
+    "phonetic": "/flɛks/",
+    "tip": "Nối FL, âm E ngắn, bật KS",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "show-off",
+      "brag"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_007",
+    "word": "Slay",
+    "phonetic": "/sleɪ/",
+    "tip": "Nối SL, nguyên âm đôi EI",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "crush-it",
+      "kill-it"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_008",
+    "word": "Cap",
+    "phonetic": "/kæp/",
+    "tip": "Âm A bẹt, ngậm P nhẹ",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "lie",
+      "fake"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_009",
+    "word": "Bet",
+    "phonetic": "/bɛt/",
+    "tip": "Bật B, âm E ngắn, bật T",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "agreed",
+      "deal"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_010",
+    "word": "Lit",
+    "phonetic": "/lɪt/",
+    "tip": "Âm I ngắn, bật T cuối",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "fire",
+      "hype"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_011",
+    "word": "Sus",
+    "phonetic": "/sʌs/",
+    "tip": "Âm Á ngắn, xì S hai đầu",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "suspicious",
+      "shady"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_012",
+    "word": "Rizz",
+    "phonetic": "/rɪz/",
+    "tip": "Uốn lưỡi R, âm I ngắn, rung Z",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "charisma",
+      "charm"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_013",
+    "word": "Goat",
+    "phonetic": "/ɡoʊt/",
+    "tip": "Bật G, nguyên âm OU, bật T",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "greatest",
+      "g.o.a.t."
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_014",
+    "word": "Mewing",
+    "phonetic": "/ˈmjuːɪŋ/",
+    "tip": "Bật Mju, kéo dài U, đuôi ING",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "jawline"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_015",
+    "word": "Simp",
+    "phonetic": "/sɪmp/",
+    "tip": "Âm I ngắn, ngậm M, bật P",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "fanboy"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_016",
+    "word": "Drip",
+    "phonetic": "/drɪp/",
+    "tip": "Nối DR, âm I ngắn, ngậm P",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "outfit",
+      "style"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_017",
+    "word": "Tea",
+    "phonetic": "/tiː/",
+    "tip": "Bật T nhẹ, kéo dài âm I",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "gossip",
+      "truth"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_b_018",
+    "word": "Based",
+    "phonetic": "/beɪst/",
+    "tip": "Nguyên âm đôi EI, bật ST",
+    "level": "basic",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "authentic"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_001",
+    "word": "Skibidi",
+    "phonetic": "/ˈskɪbɪdi/",
+    "tip": "Bật SK, nhấn SKIB, kết thúc DI",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "toilet",
+      "brainrot"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_002",
+    "word": "Sigma",
+    "phonetic": "/ˈsɪɡmə/",
+    "tip": "Âm I ngắn, bật G, kết thúc MƠ",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "lone-wolf"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_003",
+    "word": "Gigachad",
+    "phonetic": "/ˈɡɪɡətʃæd/",
+    "tip": "Bật G, nhấn GIG, A bẹt CHAD",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "chad",
+      "alpha"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_004",
+    "word": "Fanum",
+    "phonetic": "/ˈfænəm/",
+    "tip": "Âm A bẹt FAN, kết thúc NƠM",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "tax"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_005",
+    "word": "Rizzler",
+    "phonetic": "/ˈrɪzlər/",
+    "tip": "Âm I ngắn, rung Z, đuôi LƠ",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "charmer"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_006",
+    "word": "Glazing",
+    "phonetic": "/ˈɡleɪzɪŋ/",
+    "tip": "Nối GL, nguyên âm EI, rung Z",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "hyping",
+      "praising"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_007",
+    "word": "Ghosting",
+    "phonetic": "/ˈɡoʊstɪŋ/",
+    "tip": "Nguyên âm OU, bật ST, đuôi ING",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "ignoring"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_008",
+    "word": "Gatekeep",
+    "phonetic": "/ˈɡeɪtkiːp/",
+    "tip": "Bật GAYT, kéo dài KIP",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "hide",
+      "withhold"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_009",
+    "word": "Gaslight",
+    "phonetic": "/ˈɡæslaɪt/",
+    "tip": "Âm A bẹt GAS, bật LAIT",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "manipulate"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_010",
+    "word": "Stan",
+    "phonetic": "/stæn/",
+    "tip": "Nối ST, âm A bẹt, khép N",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "superfan"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_011",
+    "word": "Salty",
+    "phonetic": "/ˈsɔːlti/",
+    "tip": "Kéo dài O, kết thúc TI",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "bitter",
+      "upset"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_012",
+    "word": "Cringe",
+    "phonetic": "/krɪndʒ/",
+    "tip": "Nối KR, âm I ngắn, kết thúc NDZH",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "awkward",
+      "embarrassing"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_013",
+    "word": "Clout",
+    "phonetic": "/klaʊt/",
+    "tip": "Nối KL, nguyên âm OW, bật T",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "fame",
+      "influence"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_014",
+    "word": "Banger",
+    "phonetic": "/ˈbæŋər/",
+    "tip": "Âm A bẹt, khép NG, đuôi Ơ",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "hit",
+      "tune"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_015",
+    "word": "Lowkey",
+    "phonetic": "/ˈloʊkiː/",
+    "tip": "Nguyên âm LOU, kéo dài KI",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "quietly",
+      "secretly"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_016",
+    "word": "Highkey",
+    "phonetic": "/ˈhaɪkiː/",
+    "tip": "Nguyên âm HAI, kéo dài KI",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "openly",
+      "really"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_017",
+    "word": "Delulu",
+    "phonetic": "/dɪˈluːluː/",
+    "tip": "Kéo dài hai âm LU",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "delusional"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_i_018",
+    "word": "Solulu",
+    "phonetic": "/səˈluːluː/",
+    "tip": "Kéo dài hai âm LU",
+    "level": "medium",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "solution"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_001",
+    "word": "Gyatt",
+    "phonetic": "/ɡjɑːt/",
+    "tip": "Bật GJA, âm A dài, bật T",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "damn",
+      "gyat"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_002",
+    "word": "Brainrot",
+    "phonetic": "/ˈbreɪnrɒt/",
+    "tip": "Nối BR, nguyên âm EI, bật ROT",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "nonsense",
+      "slang"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_003",
+    "word": "Yapping",
+    "phonetic": "/ˈjæpɪŋ/",
+    "tip": "Âm A bẹt, ngậm P, đuôi ING",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "talking",
+      "rambling"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_004",
+    "word": "Cooked",
+    "phonetic": "/kʊkt/",
+    "tip": "Âm U ngắn, kết thúc KT",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "done",
+      "ruined"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_005",
+    "word": "Edging",
+    "phonetic": "/ˈɛdʒɪŋ/",
+    "tip": "Âm E ngắn, kết thúc DZHING",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "border"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_006",
+    "word": "Grimace",
+    "phonetic": "/ˈɡrɪməs/",
+    "tip": "Nối GR, âm I ngắn, kết thúc MƠS",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "shake"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_007",
+    "word": "Livvy",
+    "phonetic": "/ˈlɪvi/",
+    "tip": "Âm I ngắn, rung V, kết thúc I",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "dunne"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_008",
+    "word": "Babygronk",
+    "phonetic": "/ˌbeɪbiˈɡrɒŋk/",
+    "tip": "Nhấn GRONK khép NGK",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "gronk"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_009",
+    "word": "Kai",
+    "phonetic": "/kaɪ/",
+    "tip": "Nguyên âm đôi AI dứt khoát",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "cenat"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_010",
+    "word": "Looksmaxxing",
+    "phonetic": "/ˈlʊksmæksɪŋ/",
+    "tip": "Nhấn LUKS, A bẹt MAKS",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "glow-up"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_011",
+    "word": "Mogging",
+    "phonetic": "/ˈmɒɡɪŋ/",
+    "tip": "Âm O ngắn, bật G, đuôi ING",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "outshining"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_012",
+    "word": "Ohio",
+    "phonetic": "/oʊˈhaɪoʊ/",
+    "tip": "Ba nguyên âm đôi LOU-HAI-OU",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "weird"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_013",
+    "word": "NPC",
+    "phonetic": "/ˌɛnpiːˈsiː/",
+    "tip": "Đọc từng chữ cái N-P-C kéo dài",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "non-player-character",
+      "bot"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_014",
+    "word": "Brat",
+    "phonetic": "/bræt/",
+    "tip": "Nối BR, âm A bẹt, bật T",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "charli",
+      "rebel"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_015",
+    "word": "Demure",
+    "phonetic": "/dɪˈmjʊər/",
+    "tip": "Nhấn MJUƠ uốn lưỡi",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "modest",
+      "mindful"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_016",
+    "word": "Mindful",
+    "phonetic": "/ˈmaɪndfl/",
+    "tip": "Nguyên âm MAIN, kết thúc FL",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "conscious"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_017",
+    "word": "Yapology",
+    "phonetic": "/jæˈpɒlədʒi/",
+    "tip": "Âm A bẹt, nhấn POL, đuôi DZH",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "speech"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "slang_e_018",
+    "word": "Rentfree",
+    "phonetic": "/ˈrɛntfriː/",
+    "tip": "Âm E ngắn, nối FR, kéo dài I",
+    "level": "advanced",
+    "subject": "slang_brainrot",
+    "accepted_variants": [
+      "rent-free"
+    ],
+    "banner": null,
+    "game_mode": "voice_runner"
+  },
+  {
+    "id": "tt_b_001",
+    "word": "I scream you scream we all scream for ice cream",
+    "phonetic": "/aɪ skriːm/",
+    "tip": "Đọc rõ từng từ scream và cream",
+    "level": "basic",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_b_002",
+    "word": "Red lorry yellow lorry",
+    "phonetic": "/rɛd ˈlɒri ˈjɛloʊ ˈlɒri/",
+    "tip": "Phân biệt rõ âm R và L",
+    "level": "basic",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_b_003",
+    "word": "She sells seashells by the seashore",
+    "phonetic": "/ʃiː sɛlz ˈsiːˌʃɛlz baɪ ðə ˈsiːˌʃɔːr/",
+    "tip": "Phân biệt âm S nhẹ và SH nặng",
+    "level": "basic",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_b_004",
+    "word": "Blue bluebird on the blue branch",
+    "phonetic": "/bluː ˈbluːˌbɜːrd ɒn ðə bluː bræntʃ/",
+    "tip": "Bật âm B và L nhanh dứt khoát",
+    "level": "basic",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_b_005",
+    "word": "Friendly fleas and fireflies fly fast",
+    "phonetic": "/ˈfrɛndli fliːz ənd ˈfaɪərflaɪz flaɪ fæst/",
+    "tip": "Chuyển nhanh các cụm âm FL",
+    "level": "basic",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_b_006",
+    "word": "Green glass globes glow greenly",
+    "phonetic": "/ɡriːn ɡlæs ɡloʊbz ɡloʊ ˈɡriːnli/",
+    "tip": "Luyện chuyển đổi âm GL và GR",
+    "level": "basic",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_b_007",
+    "word": "Four fine fresh fish for you",
+    "phonetic": "/fɔːr faɪn frɛʃ fɪʃ fɔːr juː/",
+    "tip": "Bật luồng hơi âm F liên tục",
+    "level": "basic",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_b_008",
+    "word": "Give papa a cup of proper coffee",
+    "phonetic": "/ɡɪv ˈpɑːpə ə kʌp ɒv ˈprɒpər ˈkɒfi/",
+    "tip": "Bật âm P dứt khoát không lẫn B",
+    "level": "basic",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_i_001",
+    "word": "How can a clam cram in a clean cream can",
+    "phonetic": "/haʊ kæn ə klæm kræm ɪn ə kliːn kriːm kæn/",
+    "tip": "Uốn lưỡi chuẩn giữa CL và CR",
+    "level": "medium",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_i_002",
+    "word": "Peter Piper picked a peck of pickled peppers",
+    "phonetic": "/ˈpiːtər ˈpaɪpər pɪkt ə pɛk ɒv ˈpɪkld ˈpɛpərz/",
+    "tip": "Bật hơi âm P mạnh và rõ",
+    "level": "medium",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_i_003",
+    "word": "Fuzzy Wuzzy was a bear Fuzzy Wuzzy had no hair",
+    "phonetic": "/ˈfʌzi ˈwʌzi wɒz ə bɛər ˈfʌzi ˈwʌzi hæd noʊ hɛər/",
+    "tip": "Luyện âm Z rung thanh quản",
+    "level": "medium",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_i_004",
+    "word": "Six slippery snails slid slowly seaward",
+    "phonetic": "/sɪks ˈslɪpəri sneɪlz slɪd ˈsloʊli ˈsiːwərd/",
+    "tip": "Giữ luồng hơi âm S và SL liền mạch",
+    "level": "medium",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_i_005",
+    "word": "A proper cup of coffee from a proper copper coffee pot",
+    "phonetic": "/ə ˈprɒpər kʌp ɒv ˈkɒfi frɒm ə ˈprɒpər ˈkɒpər ˈkɒfi pɒt/",
+    "tip": "Phân biệt chuẩn giữa P và K",
+    "level": "medium",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_i_006",
+    "word": "He threw three free throws",
+    "phonetic": "/hiː θruː θriː friː θroʊz/",
+    "tip": "Chuyển liên tục giữa TH và F",
+    "level": "medium",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_i_007",
+    "word": "Selfish shellfish should seldom sell selfish shellfish",
+    "phonetic": "/ˈsɛlfɪʃ ˈʃɛlˌfɪʃ ʃʊd ˈsɛldəm sɛl ˈsɛlfɪʃ ˈʃɛlˌfɪʃ/",
+    "tip": "Chuyển liên tục giữa S và SH",
+    "level": "medium",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_i_008",
+    "word": "Vincent vowed vengeance very vehemently",
+    "phonetic": "/ˈvɪnsənt vaʊd ˈvɛndʒəns ˈvɛri ˈviːəməntli/",
+    "tip": "Luyện âm V rung môi dưới",
+    "level": "medium",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_e_001",
+    "word": "Pad kid pour curd pull cod",
+    "phonetic": "/pæd kɪd pɔːr kɜːrd pʊl kɒd/",
+    "tip": "Đảo nhanh giữa P và K không dính âm",
+    "level": "advanced",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_e_002",
+    "word": "The thirty three thieves thought that they thrilled the throne",
+    "phonetic": "/ðə ˈθɜːti θriː θiːvz θɔːt ðæt ðeɪ θrɪld ðə θroʊn/",
+    "tip": "Luyện âm TH vô thanh và hữu thanh",
+    "level": "advanced",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_e_003",
+    "word": "Betty Botter bought some butter but she said the butter is bitter",
+    "phonetic": "/ˈbɛti ˈbɒtər bɔːt sʌm ˈbʌtər bʌt ʃiː sɛd ðə ˈbʌtərz ˈbɪtər/",
+    "tip": "Luyện âm T và B tốc độ cao",
+    "level": "advanced",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_e_004",
+    "word": "Which witch wished which wicked wish",
+    "phonetic": "/wɪtʃ wɪtʃ wɪʃt wɪtʃ ˈwɪkɪd wɪʃ/",
+    "tip": "Chuyển liên tục giữa CH và SH",
+    "level": "advanced",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_e_005",
+    "word": "Lesser leather never weathered wetter weather better",
+    "phonetic": "/ˈlɛsər ˈlɛðər ˈnɛvər ˈwɛðərd ˈwɛtər ˈwɛðər ˈbɛtər/",
+    "tip": "Luyện âm TH và L tốc độ cao",
+    "level": "advanced",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_e_006",
+    "word": "Through three cheese trees three free fleas flew",
+    "phonetic": "/θruː θriː tʃiːz triːz θriː friː fliːz fluː/",
+    "tip": "Tổ hợp các phụ âm khó TH, CH, TR, FL",
+    "level": "advanced",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_e_007",
+    "word": "Brisk brave brigands brandished broad bright blades",
+    "phonetic": "/brɪsk breɪv ˈbrɪɡəndz ˈbrændɪʃt brɔːd braɪt bleɪdz/",
+    "tip": "Tập trung cụm âm BR và BL liên hoàn",
+    "level": "advanced",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  },
+  {
+    "id": "tt_e_008",
+    "word": "Rory the warrior and Roger the worrier were reared wrongly in a rural brewery",
+    "phonetic": "/ˈrɔːri ðə ˈwɒriər ənd ˈrɒdʒər ðə ˈwʌriər wɜːr rɪərd ˈrɒŋli ɪn ə ˈrʊərəl ˈbrʊəri/",
+    "tip": "Độ khó tối đa cho chuỗi âm R và W",
+    "level": "advanced",
+    "subject": "tongue_twister",
+    "accepted_variants": [],
+    "banner": null,
+    "game_mode": "tongue_twister"
+  }
+]

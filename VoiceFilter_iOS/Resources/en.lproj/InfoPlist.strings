@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings (English)
+  VoiceFilter_iOS
+*/
+
+"CFBundleDisplayName" = "Voice Filter";
+"NSCameraUsageDescription" = "Voice Filter requires access to the front camera to show your face with 3D AR challenge filters and record videos.";
+"NSMicrophoneUsageDescription" = "Voice Filter requires microphone access to recognize your spoken English pronunciation and record audio for videos.";
+"NSSpeechRecognitionUsageDescription" = "Voice Filter uses speech recognition (on-device preferred). If on-device speech is unavailable, voice audio data will be sent to Apple servers to score pronunciation.";
+"NSPhotoLibraryAddUsageDescription" = "Voice Filter needs permission to save recorded challenge videos directly to your Photos library.";
+"NSPhotoLibraryUsageDescription" = "Voice Filter needs access to your Photos library to manage and review recorded videos.";

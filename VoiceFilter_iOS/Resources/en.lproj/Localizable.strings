@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings (English)
+  VoiceFilter_iOS
+*/
+
+"app_title" = "Voice Filter: Speak Challenge";
+"start_challenge" = "Start Challenge";
+"play_again" = "Play Again";
+"go_home" = "Go Home";
+"score" = "Score";
+"accuracy" = "Accuracy";
+"combo" = "Combo";
+"lives" = "Lives";
+"save_to_photos" = "Save to Photos";
+"share" = "Share";
+"saved_success" = "Video successfully saved to Photos!";
+"on_device" = "⚡ On-Device";
+"cloud_speech" = "🌐 Apple Cloud";
