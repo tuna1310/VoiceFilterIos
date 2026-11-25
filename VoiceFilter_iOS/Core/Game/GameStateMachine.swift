@@ -147,7 +147,7 @@ public final class GameStateMachine: ObservableObject {
         self.initialTimeLimitPerWord = timeLimitPerWordMs
         timeline.clear()
 
-        state = .countdown(secondsRemaining = 3)
+        state = .countdown(secondsRemaining: 3)
     }
 
     public func countdownTick(secondsRemaining: Int) {
