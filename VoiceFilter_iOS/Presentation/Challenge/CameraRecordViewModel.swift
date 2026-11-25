@@ -194,26 +194,49 @@ public final class CameraRecordViewModel: ObservableObject, SpeechRecognizerDele
     }
 
     // MARK: - SpeechRecognizerDelegate
-    public func speechRecognizerDidReceivePartial(transcript: String) {
+    // MARK: - SpeechRecognizerDelegate
+    public func speechRecognizer(_ recognizer: SpeechRecognizerProtocol, didRecognizePartialText text: String) {
         DispatchQueue.main.async { [weak self] in
             guard let self = self else { return }
-            self.liveSpeechTranscript = transcript
-            self.evaluateLiveSpeech(transcript)
+            self.liveSpeechTranscript = text
+            self.evaluateLiveSpeech(text)
         }
     }
 
-    public func speechRecognizerDidReceiveFinal(transcript: String) {
+    public func speechRecognizer(_ recognizer: SpeechRecognizerProtocol, didRecognizeFinalText text: String) {
         DispatchQueue.main.async { [weak self] in
             guard let self = self else { return }
-            self.liveSpeechTranscript = transcript
-            self.evaluateLiveSpeech(transcript)
+            self.liveSpeechTranscript = text
+            self.evaluateLiveSpeech(text)
         }
     }
 
-    public func speechRecognizerDidFail(error: Error) {
+    public func speechRecognizer(_ recognizer: SpeechRecognizerProtocol, didEncounterError error: Error) {
         DispatchQueue.main.async { [weak self] in
             self?.errorMessage = "Lỗi nhận diện: \(error.localizedDescription)"
         }
+    }
+
+    public func speechRecognizerDidDetectSilenceTimeout(_ recognizer: SpeechRecognizerProtocol) {
+        // Im lặng quá ngưỡng, có thể thử lại nếu cần
+    }
+
+    public func speechRecognizer(_ recognizer: SpeechRecognizerProtocol, didChangeAvailability available: Bool) {
+        DispatchQueue.main.async { [weak self] in
+            self?.isOnDeviceSpeech = recognizer.isOnDevice
+        }
+    }
+
+    public func speechRecognizerDidReceivePartial(transcript: String) {
+        speechRecognizer(speechRecognizer, didRecognizePartialText: transcript)
+    }
+
+    public func speechRecognizerDidReceiveFinal(transcript: String) {
+        speechRecognizer(speechRecognizer, didRecognizeFinalText: transcript)
+    }
+
+    public func speechRecognizerDidFail(error: Error) {
+        speechRecognizer(speechRecognizer, didEncounterError: error)
     }
 
     public func speechRecognizerStatusDidChange(isOnDevice: Bool) {

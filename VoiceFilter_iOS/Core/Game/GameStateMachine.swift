@@ -60,7 +60,7 @@ public enum FinishReason: String, Codable {
     case userQuit = "USER_QUIT"
 }
 
-public struct GameResult: Codable {
+public struct GameResult: Codable, Equatable {
     public let finalScore: Int
     public let wordsCompleted: Int
     public let totalWords: Int
