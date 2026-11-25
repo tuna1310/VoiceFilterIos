@@ -1,0 +1,80 @@
+name: Build VoiceFilter iOS (.ipa)
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build-ios-ipa:
+    name: Build & Package VoiceFilter Unsigned IPA
+    runs-on: macos-15
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: |
+          if [ -d "/Applications/Xcode.app/Contents/Developer" ]; then
+            sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+          elif [ -d "/Applications/Xcode_16.4.app/Contents/Developer" ]; then
+            sudo xcode-select -s /Applications/Xcode_16.4.app/Contents/Developer
+          fi
+          xcodebuild -version
+          xcodebuild -list -project VoiceFilter_iOS.xcodeproj
+
+      - name: Build for iOS Simulator
+        run: |
+          set -o pipefail
+          xcodebuild build \
+            -project VoiceFilter_iOS.xcodeproj \
+            -scheme VoiceFilter_iOS \
+            -sdk iphonesimulator \
+            -destination 'generic/platform=iOS Simulator' \
+            -configuration Debug \
+            -derivedDataPath build_sim \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY=""
+
+      - name: Archive Release Device App (Unsigned arm64)
+        run: |
+          set -o pipefail
+          xcodebuild archive \
+            -project VoiceFilter_iOS.xcodeproj \
+            -scheme VoiceFilter_iOS \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            -configuration Release \
+            -archivePath build_archive/VoiceFilter_iOS.xcarchive \
+            CODE_SIGN_STYLE=Manual \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO \
+            AD_HOC_CODE_SIGNING_ALLOWED=YES \
+            DEVELOPMENT_TEAM=""
+
+      - name: Package & Ad-Hoc Sign Unsigned IPA
+        run: |
+          APP_PATH="build_archive/VoiceFilter_iOS.xcarchive/Products/Applications/VoiceFilter_iOS.app"
+          if [ ! -d "$APP_PATH" ]; then
+            echo "::error::VoiceFilter_iOS.app not found at $APP_PATH"
+            exit 1
+          fi
+          mkdir -p Payload
+          cp -R "$APP_PATH" Payload/VoiceFilter_iOS.app
+          codesign --force --deep --sign - --timestamp=none Payload/VoiceFilter_iOS.app || true
+          zip -qry VoiceFilter_iOS-unsigned.ipa Payload
+          ls -lh VoiceFilter_iOS-unsigned.ipa
+
+      - name: Upload VoiceFilter Unsigned IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: VoiceFilter_iOS-unsigned-IPA
+          path: VoiceFilter_iOS-unsigned.ipa
+          if-no-files-found: error
+          retention-days: 30
