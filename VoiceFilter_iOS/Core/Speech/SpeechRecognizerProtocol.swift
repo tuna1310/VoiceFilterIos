@@ -8,12 +8,35 @@
 import Foundation
 import CoreMedia
 
+public enum SpeechRecognizerError: LocalizedError {
+    case recognizerUnavailable
+
+    public var errorDescription: String? {
+        switch self {
+        case .recognizerUnavailable: return "Speech recognizer is unavailable."
+        }
+    }
+}
+
 public enum SpeechRecognizerState {
     case idle
     case listening
     case silenceTimeout // Im lặng quá ngưỡng, chờ người dùng/game kích hoạt lại
     case stopped
     case failed(Error)
+}
+
+extension SpeechRecognizerState: Equatable {
+    public static func == (lhs: SpeechRecognizerState, rhs: SpeechRecognizerState) -> Bool {
+        switch (lhs, rhs) {
+        case (.idle, .idle), (.listening, .listening), (.silenceTimeout, .silenceTimeout), (.stopped, .stopped):
+            return true
+        case (.failed(let l), .failed(let r)):
+            return l.localizedDescription == r.localizedDescription
+        default:
+            return false
+        }
+    }
 }
 
 public protocol SpeechRecognizerDelegate: AnyObject {

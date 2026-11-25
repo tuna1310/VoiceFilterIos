@@ -123,7 +123,7 @@ public struct CameraRecordView: View {
 
             // 6. Màn hình Đếm ngược 3-2-1 trước khi bắt đầu
             if case .countdown(let sec) = viewModel.gameState {
-                CountdownBannerView(countdownValue: sec)
+                CountdownBannerView(count: sec)
             }
 
             // 7. Hộp thoại Tạm dừng (Pause Modal)

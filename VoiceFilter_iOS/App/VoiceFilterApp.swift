@@ -17,3 +17,9 @@ struct VoiceFilterApp: App {
         }
     }
 }
+
+#if !SWIFT_PACKAGE
+extension Bundle {
+    public static var module: Bundle { Bundle.main }
+}
+#endif

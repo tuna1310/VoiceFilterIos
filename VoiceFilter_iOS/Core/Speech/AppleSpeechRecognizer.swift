@@ -95,7 +95,7 @@ public final class AppleSpeechRecognizer: NSObject, SpeechRecognizerProtocol {
     }
 
     public func retryAfterSilence() throws {
-        syncQueue.sync {
+        try syncQueue.sync {
             print("[AppleSpeechRecognizer] Retrying turn after silence...")
             silenceRetriesInCurrentTurn = 0
             state = .listening
