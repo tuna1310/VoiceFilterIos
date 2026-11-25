@@ -229,7 +229,7 @@ public final class GameStateMachine: ObservableObject {
 
         // 4. Nếu hết thời gian của từ mà chưa đọc được -> Tính là Va chạm (Timeout / Crash)
         if ps.wordElapsedMs >= ps.wordTimeLimitMs {
-            handleWordWrongOrTimeout(ps: &ps, reason: "Hết thời gian từ")
+            handleWordWrongOrTimeout(ps: &ps, reason: "Word timed out")
             return
         }
 

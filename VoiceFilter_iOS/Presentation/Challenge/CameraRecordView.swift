@@ -52,7 +52,7 @@ public struct CameraRecordView: View {
             } else {
                 VStack(spacing: 16) {
                     ProgressView().tint(.white).scaleEffect(1.4)
-                    Text("Đang khởi động Camera AR...")
+                    Text("Starting AR camera...")
                         .foregroundColor(.gray)
                         .font(.system(size: 14, weight: .medium))
                 }
@@ -162,13 +162,13 @@ public struct CameraRecordView: View {
         }
         .alert(isPresented: $showExitAlert) {
             Alert(
-                title: Text("Dừng thử thách?"),
-                message: Text("Tiến trình và điểm số của lượt chơi này sẽ bị hủy."),
-                primaryButton: .destructive(Text("Thoát")) {
+                title: Text("Stop the challenge?"),
+                message: Text("Progress and score for this round will be lost."),
+                primaryButton: .destructive(Text("Quit")) {
                     viewModel.stopAll()
                     presentationMode.wrappedValue.dismiss()
                 },
-                secondaryButton: .cancel(Text("Tiếp tục")) {
+                secondaryButton: .cancel(Text("Continue")) {
                     viewModel.resumeGame()
                 }
             )
@@ -299,7 +299,7 @@ public struct CameraRecordView: View {
                 .foregroundColor(viewModel.triggerErrorShake ? .red : Color(red: 0.65, green: 0.93, blue: 0.15))
                 .font(.system(size: 18))
 
-            Text(viewModel.liveSpeechTranscript.isEmpty ? "Hãy đọc to từ trên màn hình..." : viewModel.liveSpeechTranscript)
+            Text(viewModel.liveSpeechTranscript.isEmpty ? "Read the word on screen out loud..." : viewModel.liveSpeechTranscript)
                 .font(.system(size: 15, weight: .semibold, design: .rounded))
                 .foregroundColor(viewModel.liveSpeechTranscript.isEmpty ? .gray : (viewModel.triggerErrorShake ? .red : .white))
                 .lineLimit(2)
@@ -342,12 +342,12 @@ public struct CameraRecordView: View {
             Color.black.opacity(0.7).ignoresSafeArea()
 
             VStack(spacing: 20) {
-                Text("TẠM DỪNG")
+                Text("PAUSED")
                     .font(.system(size: 26, weight: .black, design: .rounded))
                     .foregroundColor(.white)
 
                 Button(action: { viewModel.resumeGame() }) {
-                    Text("Tiếp Tục Chơi")
+                    Text("Resume")
                         .font(.system(size: 16, weight: .bold))
                         .foregroundColor(.black)
                         .frame(maxWidth: .infinity)
@@ -360,7 +360,7 @@ public struct CameraRecordView: View {
                     viewModel.stopAll()
                     presentationMode.wrappedValue.dismiss()
                 }) {
-                    Text("Về Trang Chủ")
+                    Text("Back to Home")
                         .font(.system(size: 16, weight: .bold))
                         .foregroundColor(.white)
                         .frame(maxWidth: .infinity)
@@ -385,12 +385,12 @@ public struct CameraRecordView: View {
                     .progressViewStyle(CircularProgressViewStyle(tint: Color(red: 0.65, green: 0.93, blue: 0.15)))
                     .scaleEffect(1.6)
 
-                Text(viewModel.compositingStatusText.isEmpty ? "Đang xử lý video..." : viewModel.compositingStatusText)
+                Text(viewModel.compositingStatusText.isEmpty ? "Processing video..." : viewModel.compositingStatusText)
                     .font(.system(size: 16, weight: .bold))
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
 
-                Text("Đang dập Watermark bản quyền Nói Chuẩn & hòa âm SFX...")
+                Text("Applying Speak Right watermark & mixing SFX...")
                     .font(.system(size: 12))
                     .foregroundColor(.gray)
                     .multilineTextAlignment(.center)

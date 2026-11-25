@@ -107,12 +107,12 @@ public final class VocabularyRepository: ObservableObject {
 
         // Nếu URL vẫn là placeholder mặc định thì bỏ qua đồng bộ cloud an toàn
         guard !baseURL.contains("your-project.supabase.co") && !anonKey.contains("placeholder-key") else {
-            completion?(false, "Chưa thiết lập URL và API Key Supabase hợp lệ.")
+            completion?(false, "A valid Supabase URL and API key have not been configured.")
             return
         }
 
         guard let url = URL(string: "\(baseURL)/rest/v1/words?select=*") else {
-            completion?(false, "URL endpoint Supabase không hợp lệ.")
+            completion?(false, "Invalid Supabase endpoint URL.")
             return
         }
 
@@ -136,7 +136,7 @@ public final class VocabularyRepository: ObservableObject {
             }
 
             if let error = error {
-                let msg = "Lỗi kết nối máy chủ Supabase: \(error.localizedDescription)"
+                let msg = "Supabase connection error: \(error.localizedDescription)"
                 DispatchQueue.main.async {
                     self.syncErrorMessage = msg
                     completion?(false, msg)
@@ -145,7 +145,7 @@ public final class VocabularyRepository: ObservableObject {
             }
 
             guard let httpResp = response as? HTTPURLResponse, (200...299).contains(httpResp.statusCode), let data = data else {
-                let msg = "Máy chủ trả về mã lỗi HTTP: \((response as? HTTPURLResponse)?.statusCode ?? -1)"
+                let msg = "Server returned HTTP error code: \((response as? HTTPURLResponse)?.statusCode ?? -1)"
                 DispatchQueue.main.async {
                     self.syncErrorMessage = msg
                     completion?(false, msg)
@@ -158,7 +158,7 @@ public final class VocabularyRepository: ObservableObject {
                 let remoteWords = try decoder.decode([WordItem].self, from: data)
 
                 guard !remoteWords.isEmpty else {
-                    let msg = "Dữ liệu trả về từ Supabase rỗng."
+                    let msg = "Supabase returned empty data."
                     DispatchQueue.main.async { completion?(false, msg) }
                     return
                 }
@@ -174,7 +174,7 @@ public final class VocabularyRepository: ObservableObject {
                     completion?(true, nil)
                 }
             } catch {
-                let msg = "Lỗi giải mã cấu trúc từ vựng Supabase: \(error.localizedDescription)"
+                let msg = "Failed to decode Supabase vocabulary: \(error.localizedDescription)"
                 DispatchQueue.main.async {
                     self.syncErrorMessage = msg
                     completion?(false, msg)

@@ -42,7 +42,7 @@ public struct SubjectsView: View {
                             .clipShape(Circle())
                     }
 
-                    Text("Chủ Đề Từ Vựng")
+                    Text("Vocabulary Topics")
                         .font(.system(size: 20, weight: .bold))
                         .foregroundColor(.white)
 
@@ -55,7 +55,7 @@ public struct SubjectsView: View {
                 HStack(spacing: 10) {
                     Image(systemName: "magnifyingglass")
                         .foregroundColor(.gray)
-                    TextField("Tìm kiếm từ vựng, phiên âm...", text: $searchQuery)
+                    TextField("Search words, phonetics...", text: $searchQuery)
                         .foregroundColor(.white)
                     if !searchQuery.isEmpty {
                         Button(action: { searchQuery = "" }) {
@@ -88,7 +88,7 @@ public struct SubjectsView: View {
                                             .font(.system(size: 16, weight: .bold))
                                             .foregroundColor(.white)
 
-                                        Text("\(subj.learnersCount) người luyện tập")
+                                        Text("\(subj.learnersCount) learners")
                                             .font(.system(size: 11, weight: .medium))
                                             .foregroundColor(.white.opacity(0.7))
                                     }

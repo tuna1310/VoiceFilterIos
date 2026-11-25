@@ -203,12 +203,12 @@ public enum VideoRecorderError: LocalizedError {
 
     public var errorDescription: String? {
         switch self {
-        case .alreadyRecording: return "Đang có phiên ghi hình khác hoạt động."
-        case .notRecording: return "Không có phiên ghi hình nào đang chạy."
-        case .cannotAddVideoInput: return "Không thể thêm track video vào bộ ghi file."
-        case .cannotAddAudioInput: return "Không thể thêm track audio vào bộ ghi file."
-        case .writerFailedToStart: return "Không thể khởi động bộ ghi AVAssetWriter."
-        case .writerFailedToFinish: return "Bộ ghi file gặp lỗi khi xuất MP4 hoàn chỉnh."
+        case .alreadyRecording: return "Another recording session is already active."
+        case .notRecording: return "No recording session is running."
+        case .cannotAddVideoInput: return "Couldn't add video track to the file writer."
+        case .cannotAddAudioInput: return "Couldn't add audio track to the file writer."
+        case .writerFailedToStart: return "Couldn't start AVAssetWriter."
+        case .writerFailedToFinish: return "File writer failed to finalize the MP4."
         }
     }
 }

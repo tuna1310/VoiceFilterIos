@@ -82,7 +82,7 @@ public final class TongueTwisterEvaluator {
         let spokenTokens = tokenizeSentence(spokenText)
 
         if targetTokens.isEmpty {
-            return EvaluationResult(accuracyPercent: 0, fluencyPercent: 0, totalScore: 0, stars: 1, matchedWordIndices: [], feedback: "Câu mẫu rỗng")
+            return EvaluationResult(accuracyPercent: 0, fluencyPercent: 0, totalScore: 0, stars: 1, matchedWordIndices: [], feedback: "Reference sentence is empty")
         }
 
         let matchedIndices = calculateMatchedIndices(targetTokens: targetTokens, spokenTokens: spokenTokens)
@@ -111,9 +111,9 @@ public final class TongueTwisterEvaluator {
 
         let feedback: String
         switch stars {
-        case 3: feedback = "Xuất sắc! Đọc trôi chảy và rất chuẩn xác!"
-        case 2: feedback = "Tốt! Chú ý giữ nhịp đọc liền mạch hơn nhé."
-        default: feedback = "Cần cố gắng thêm! Đọc chậm lại để rõ từng âm."
+        case 3: feedback = "Excellent! Fluent and very accurate!"
+        case 2: feedback = "Good! Try to keep a smoother reading rhythm."
+        default: feedback = "Keep trying! Slow down to pronounce each sound clearly."
         }
 
         return EvaluationResult(

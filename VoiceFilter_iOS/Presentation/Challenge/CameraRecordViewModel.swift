@@ -93,7 +93,7 @@ public final class CameraRecordViewModel: ObservableObject, SpeechRecognizerDele
                     self.isSessionReady = true
                     self.isOnDeviceSpeech = self.speechRecognizer.isOnDevice
                 case .failure(let error):
-                    self.errorMessage = "Không thể khởi động camera: \(error.localizedDescription)"
+                    self.errorMessage = "Couldn't start camera: \(error.localizedDescription)"
                 }
             }
         }
@@ -188,7 +188,7 @@ public final class CameraRecordViewModel: ObservableObject, SpeechRecognizerDele
             }
 
         } catch {
-            errorMessage = "Lỗi khởi động ván chơi: \(error.localizedDescription)"
+            errorMessage = "Failed to start the round: \(error.localizedDescription)"
             stopAll()
         }
     }
@@ -213,7 +213,7 @@ public final class CameraRecordViewModel: ObservableObject, SpeechRecognizerDele
 
     public func speechRecognizer(_ recognizer: SpeechRecognizerProtocol, didEncounterError error: Error) {
         DispatchQueue.main.async { [weak self] in
-            self?.errorMessage = "Lỗi nhận diện: \(error.localizedDescription)"
+            self?.errorMessage = "Recognition error: \(error.localizedDescription)"
         }
     }
 
@@ -284,7 +284,7 @@ public final class CameraRecordViewModel: ObservableObject, SpeechRecognizerDele
         soundManager.playSuccess()
         hapticNotification.notificationOccurred(.success)
         showConfetti = true
-        plusPointsBanner = "+\(points)đ"
+        plusPointsBanner = "+\(points) pts"
 
         confettiTimer?.invalidate()
         confettiTimer = Timer.scheduledTimer(withTimeInterval: 1.5, repeats: false) { [weak self] _ in
@@ -347,7 +347,7 @@ public final class CameraRecordViewModel: ObservableObject, SpeechRecognizerDele
             case .success(let rawURL):
                 self.compositeRecordedVideo(rawURL: rawURL)
             case .failure(let error):
-                self.errorMessage = "Lỗi xuất video: \(error.localizedDescription)"
+                self.errorMessage = "Video export error: \(error.localizedDescription)"
             }
         }
     }
@@ -358,7 +358,7 @@ public final class CameraRecordViewModel: ObservableObject, SpeechRecognizerDele
         self.lastGameResult = gameResult
 
         self.isCompositingVideo = true
-        self.compositingStatusText = "Đang kết xuất video TikTok (Watermark & Hiệu ứng)..."
+        self.compositingStatusText = "Rendering TikTok video (watermark & effects)..."
 
         VideoCompositor.shared.compositeVideo(
             rawVideoURL: rawURL,
@@ -394,9 +394,9 @@ public final class CameraRecordViewModel: ObservableObject, SpeechRecognizerDele
             self.isSavingToPhotos = false
             switch result {
             case .success:
-                self.saveSuccessMessage = "Đã lưu video thành công vào Thư viện ảnh!"
+                self.saveSuccessMessage = "Video saved to Photo Library!"
             case .failure(let error):
-                self.errorMessage = "Lỗi lưu video: \(error.localizedDescription)"
+                self.errorMessage = "Failed to save video: \(error.localizedDescription)"
             }
         }
     }

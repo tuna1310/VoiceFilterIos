@@ -47,12 +47,12 @@ public final class SocialShareManager {
         completion: @escaping (Bool, String?) -> Void
     ) {
         guard isInstagramInstalled else {
-            completion(false, "Thiết bị chưa cài đặt ứng dụng Instagram.")
+            completion(false, "Instagram is not installed on this device.")
             return
         }
 
         guard let videoData = try? Data(contentsOf: videoURL) else {
-            completion(false, "Không thể đọc dữ liệu video.")
+            completion(false, "Couldn't read the video data.")
             return
         }
 
@@ -67,7 +67,7 @@ public final class SocialShareManager {
         UIPasteboard.general.setItems([pasteboardItems], options: pasteboardOptions)
 
         guard let shareURL = URL(string: "instagram-stories://share?source_application=\(Bundle.main.bundleIdentifier ?? "com.voicefilter.ios")") else {
-            completion(false, "Lỗi tạo liên kết chia sẻ.")
+            completion(false, "Failed to create share link.")
             return
         }
 
@@ -75,7 +75,7 @@ public final class SocialShareManager {
             if success {
                 completion(true, nil)
             } else {
-                completion(false, "Không thể mở Instagram Stories.")
+                completion(false, "Couldn't open Instagram Stories.")
             }
         }
     }
@@ -87,7 +87,7 @@ public final class SocialShareManager {
         completion: @escaping (Bool, String?) -> Void
     ) {
         guard isTikTokInstalled else {
-            completion(false, "Thiết bị chưa cài đặt ứng dụng TikTok.")
+            completion(false, "TikTok is not installed on this device.")
             return
         }
 
@@ -104,15 +104,15 @@ public final class SocialShareManager {
                                 if opened {
                                     completion(true, nil)
                                 } else {
-                                    completion(false, "Không thể khởi động TikTok.")
+                                    completion(false, "Couldn't launch TikTok.")
                                 }
                             }
                             return
                         }
                     }
-                    completion(false, "Không tìm thấy giao thức mở TikTok.")
+                    completion(false, "TikTok URL scheme not found.")
                 case .failure(let err):
-                    completion(false, "Cần cấp quyền Thư viện ảnh để TikTok tải video: \(err.localizedDescription)")
+                    completion(false, "Photo Library access is required for TikTok to load the video: \(err.localizedDescription)")
                 }
             }
         }
@@ -125,12 +125,12 @@ public final class SocialShareManager {
         completion: @escaping (Bool, String?) -> Void
     ) {
         guard isFacebookInstalled else {
-            completion(false, "Thiết bị chưa cài đặt ứng dụng Facebook.")
+            completion(false, "Facebook is not installed on this device.")
             return
         }
 
         guard let videoData = try? Data(contentsOf: videoURL) else {
-            completion(false, "Không thể đọc dữ liệu video.")
+            completion(false, "Couldn't read the video data.")
             return
         }
 
@@ -145,7 +145,7 @@ public final class SocialShareManager {
         UIPasteboard.general.setItems([pasteboardItems], options: pasteboardOptions)
 
         guard let shareURL = URL(string: "facebook-stories://share") else {
-            completion(false, "Lỗi tạo liên kết chia sẻ.")
+            completion(false, "Failed to create share link.")
             return
         }
 
@@ -153,7 +153,7 @@ public final class SocialShareManager {
             if success {
                 completion(true, nil)
             } else {
-                completion(false, "Không thể mở Facebook Stories.")
+                completion(false, "Couldn't open Facebook Stories.")
             }
         }
     }

@@ -34,7 +34,7 @@ public struct CountdownBannerView: View {
                     .scaleEffect(count > 0 ? 1.0 : 1.2)
                     .animation(.spring(response: 0.35, dampingFraction: 0.5), value: count)
 
-                Text(count > 0 ? "CHUẨN BỊ PHÁT ÂM..." : "BẮT ĐẦU!")
+                Text(count > 0 ? "GET READY TO SPEAK..." : "GO!")
                     .font(.system(size: 20, weight: .bold, design: .rounded))
                     .foregroundColor(.white)
                     .tracking(2.0)

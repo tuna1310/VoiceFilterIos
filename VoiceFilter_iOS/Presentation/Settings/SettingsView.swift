@@ -41,7 +41,7 @@ public struct SettingsView: View {
                             .clipShape(Circle())
                     }
 
-                    Text("Cài Đặt")
+                    Text("Settings")
                         .font(.system(size: 20, weight: .bold))
                         .foregroundColor(.white)
 
@@ -54,7 +54,7 @@ public struct SettingsView: View {
                     VStack(spacing: 20) {
                         // Section 1: Âm Thanh
                         VStack(alignment: .leading, spacing: 14) {
-                            Text("ÂM THANH & HIỆU ỨNG")
+                            Text("SOUND & EFFECTS")
                                 .font(.system(size: 12, weight: .bold))
                                 .foregroundColor(.gray)
 
@@ -62,7 +62,7 @@ public struct SettingsView: View {
                                 // SFX Volume
                                 VStack(alignment: .leading, spacing: 8) {
                                     HStack {
-                                        Text("Hiệu ứng âm thanh (SFX)")
+                                        Text("Sound Effects (SFX)")
                                             .font(.system(size: 15, weight: .semibold))
                                             .foregroundColor(.white)
                                         Spacer()
@@ -82,7 +82,7 @@ public struct SettingsView: View {
                                 // BGM Volume
                                 VStack(alignment: .leading, spacing: 8) {
                                     HStack {
-                                        Text("Nhạc nền trận đấu (BGM)")
+                                        Text("Background Music (BGM)")
                                             .font(.system(size: 15, weight: .semibold))
                                             .foregroundColor(.white)
                                         Spacer()
@@ -104,17 +104,17 @@ public struct SettingsView: View {
 
                         // Section 2: Ngôn Ngữ & Nhận Diện
                         VStack(alignment: .leading, spacing: 14) {
-                            Text("NGÔN NGỮ & NHẬN DIỆN GIỌNG NÓI")
+                            Text("LANGUAGE & SPEECH RECOGNITION")
                                 .font(.system(size: 12, weight: .bold))
                                 .foregroundColor(.gray)
 
                             VStack(spacing: 16) {
                                 HStack {
-                                    Text("Ngôn ngữ giao diện")
+                                    Text("Interface Language")
                                         .font(.system(size: 15, weight: .semibold))
                                         .foregroundColor(.white)
                                     Spacer()
-                                    Picker("Ngôn ngữ", selection: $settings.language) {
+                                    Picker("Language", selection: $settings.language) {
                                         ForEach(AppLanguage.allCases) { lang in
                                             Text(lang.displayName).tag(lang)
                                         }
@@ -126,10 +126,10 @@ public struct SettingsView: View {
 
                                 Toggle(isOn: $settings.preferOnDeviceSpeech) {
                                     VStack(alignment: .leading, spacing: 2) {
-                                        Text("Ưu tiên nhận diện trên máy (On-Device)")
+                                        Text("Prefer On-Device Recognition")
                                             .font(.system(size: 15, weight: .semibold))
                                             .foregroundColor(.white)
-                                        Text("Không cần kết nối internet, phản hồi nhanh hơn")
+                                        Text("No internet needed, faster response")
                                             .font(.system(size: 12))
                                             .foregroundColor(.gray)
                                     }
@@ -143,22 +143,22 @@ public struct SettingsView: View {
 
                         // Section 3: Đồng Bộ Dữ Liệu Từ Xa (Remote Config / Supabase)
                         VStack(alignment: .leading, spacing: 14) {
-                            Text("CẬP NHẬT TỪ VỰNG TỪ XA")
+                            Text("REMOTE VOCABULARY UPDATE")
                                 .font(.system(size: 12, weight: .bold))
                                 .foregroundColor(.gray)
 
                             VStack(spacing: 14) {
                                 HStack {
                                     VStack(alignment: .leading, spacing: 2) {
-                                        Text("Kho từ hiện tại")
+                                        Text("Current Word Bank")
                                             .font(.system(size: 15, weight: .semibold))
                                             .foregroundColor(.white)
-                                        Text(vocabRepo.lastSyncDate != nil ? "Đồng bộ gần nhất: \(formatSyncDate(vocabRepo.lastSyncDate!))" : "Dữ liệu offline cục bộ")
+                                        Text(vocabRepo.lastSyncDate != nil ? "Last synced: \(formatSyncDate(vocabRepo.lastSyncDate!))" : "Local offline data")
                                             .font(.system(size: 12))
                                             .foregroundColor(.gray)
                                     }
                                     Spacer()
-                                    Text("\(vocabRepo.allWords.count) từ")
+                                    Text("\(vocabRepo.allWords.count) words")
                                         .font(.system(size: 14, weight: .bold))
                                         .foregroundColor(Color(red: 0.65, green: 0.93, blue: 0.15))
                                 }
@@ -176,10 +176,10 @@ public struct SettingsView: View {
                                     HStack(spacing: 8) {
                                         if vocabRepo.isSyncing {
                                             ProgressView().tint(.black).scaleEffect(0.8)
-                                            Text("Đang đồng bộ Supabase...")
+                                            Text("Syncing with Supabase...")
                                         } else {
                                             Image(systemName: "arrow.triangle.2.circlepath")
-                                            Text("Đồng Bộ Từ Vựng Mới (Cloud Sync)")
+                                            Text("Sync New Vocabulary (Cloud Sync)")
                                         }
                                     }
                                     .font(.system(size: 14, weight: .bold))
@@ -198,13 +198,13 @@ public struct SettingsView: View {
 
                         // Section 4: Về Ứng Dụng
                         VStack(alignment: .leading, spacing: 14) {
-                            Text("THÔNG TIN")
+                            Text("ABOUT")
                                 .font(.system(size: 12, weight: .bold))
                                 .foregroundColor(.gray)
 
                             VStack(spacing: 12) {
                                 HStack {
-                                    Text("Phiên bản")
+                                    Text("Version")
                                         .foregroundColor(.white)
                                     Spacer()
                                     Text("1.0.0 (Native iOS)")
@@ -212,7 +212,7 @@ public struct SettingsView: View {
                                 }
                                 Divider().background(Color.white.opacity(0.1))
                                 HStack {
-                                    Text("Đồ họa AR")
+                                    Text("AR Graphics")
                                         .foregroundColor(.white)
                                     Spacer()
                                     Text("SwiftUI Canvas 3D")
@@ -220,7 +220,7 @@ public struct SettingsView: View {
                                 }
                                 Divider().background(Color.white.opacity(0.1))
                                 HStack {
-                                    Text("Xuất Video")
+                                    Text("Video Export")
                                         .foregroundColor(.white)
                                     Spacer()
                                     Text("MP4 9:16 + Watermark + SFX Mix")
@@ -228,10 +228,10 @@ public struct SettingsView: View {
                                 }
                                 Divider().background(Color.white.opacity(0.1))
                                 HStack {
-                                    Text("Kho từ vựng")
+                                    Text("Word Bank")
                                         .foregroundColor(.white)
                                     Spacer()
-                                    Text("\(vocabRepo.allWords.count) từ & câu (12 chủ đề)")
+                                    Text("\(vocabRepo.allWords.count) words & phrases (12 topics)")
                                         .foregroundColor(.gray)
                                 }
                             }
@@ -252,9 +252,9 @@ public struct SettingsView: View {
         vocabRepo.syncRemoteVocabulary { success, errMsg in
             DispatchQueue.main.async {
                 if success {
-                    self.syncStatusMessage = "Đã đồng bộ từ vựng mới nhất thành công!"
+                    self.syncStatusMessage = "Latest vocabulary synced successfully!"
                 } else {
-                    self.syncStatusMessage = errMsg ?? "Đồng bộ thất bại, đã giữ nguyên dữ liệu ngoại tuyến."
+                    self.syncStatusMessage = errMsg ?? "Sync failed; offline data kept."
                 }
             }
         }

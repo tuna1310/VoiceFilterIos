@@ -44,18 +44,18 @@ public enum Subject: String, CaseIterable, Identifiable, Codable {
 
     public var titleVi: String {
         switch self {
-        case .colors: return "Màu sắc"
-        case .carBrands: return "Hãng xe"
-        case .weekdays: return "Ngày trong tuần"
-        case .months: return "Tháng trong năm"
-        case .animals: return "Động vật"
-        case .vehicles: return "Phương tiện"
-        case .kitchen: return "Dụng cụ bếp"
-        case .countries: return "Quốc gia"
-        case .dailyWords: return "Từ vựng hàng ngày"
-        case .travelFood: return "Du lịch & Ẩm thực"
-        case .entertainmentSports: return "Phim ảnh & Thể thao"
-        case .slangBrainrot: return "Từ lóng & Giới trẻ"
+        case .colors: return "Colors"
+        case .carBrands: return "Car Brands"
+        case .weekdays: return "Weekdays"
+        case .months: return "Months"
+        case .animals: return "Animals"
+        case .vehicles: return "Vehicles"
+        case .kitchen: return "Kitchen"
+        case .countries: return "Countries"
+        case .dailyWords: return "Daily Words"
+        case .travelFood: return "Travel & Food"
+        case .entertainmentSports: return "Movies & Sports"
+        case .slangBrainrot: return "Slang & Trends"
         }
     }
 

@@ -37,10 +37,10 @@ public struct HomeView: View {
                     // Header Bar
                     HStack {
                         VStack(alignment: .leading, spacing: 4) {
-                            Text("NÓI CHUẨN")
+                            Text("SPEAK RIGHT")
                                 .font(.system(size: 22, weight: .black, design: .rounded))
                                 .foregroundColor(.white)
-                            Text("Luyện phát âm AR cùng chú cáo")
+                            Text("Practice pronunciation in AR with the fox")
                                 .font(.system(size: 13, weight: .medium))
                                 .foregroundColor(.gray)
                         }
@@ -50,7 +50,7 @@ public struct HomeView: View {
                         // Chuỗi ngày học
                         HStack(spacing: 4) {
                             Text("🔥")
-                            Text("\(settings.dailyStreak) Ngày")
+                            Text("\(settings.dailyStreak) Days")
                                 .font(.system(size: 13, weight: .bold))
                                 .foregroundColor(.orange)
                         }
@@ -76,11 +76,11 @@ public struct HomeView: View {
                     VStack(alignment: .leading, spacing: 14) {
                         HStack {
                             VStack(alignment: .leading, spacing: 4) {
-                                Text("THỬ THÁCH HÔM NAY")
+                                Text("TODAY'S CHALLENGE")
                                     .font(.system(size: 11, weight: .bold))
                                     .foregroundColor(Color(red: 0.65, green: 0.93, blue: 0.15))
 
-                                Text("Màu Sắc & Động Vật")
+                                Text("Colors & Animals")
                                     .font(.system(size: 20, weight: .black, design: .rounded))
                                     .foregroundColor(.white)
                             }
@@ -89,7 +89,7 @@ public struct HomeView: View {
                                 .font(.system(size: 42))
                         }
 
-                        Text("Vượt 15 cổng từ vựng để duy trì chuỗi học và nhận huy hiệu ngày mới!")
+                        Text("Clear 15 word gates to keep your streak and earn today's badge!")
                             .font(.system(size: 13, weight: .medium))
                             .foregroundColor(.white.opacity(0.7))
 
@@ -98,7 +98,7 @@ public struct HomeView: View {
                         }) {
                             HStack {
                                 Image(systemName: "play.fill")
-                                Text("Chơi Ngay (Voice Runner)")
+                                Text("Play Now (Voice Runner)")
                             }
                             .font(.system(size: 15, weight: .bold))
                             .foregroundColor(.black)
@@ -125,7 +125,7 @@ public struct HomeView: View {
 
                     // 3 Chế Độ Chơi (Game Modes)
                     VStack(alignment: .leading, spacing: 12) {
-                        Text("Chế Độ Chơi")
+                        Text("Game Modes")
                             .font(.system(size: 18, weight: .bold))
                             .foregroundColor(.white)
                             .padding(.horizontal, 20)
@@ -134,8 +134,8 @@ public struct HomeView: View {
                             ModeCard(
                                 emoji: "🏃‍♂️",
                                 title: "Voice Runner",
-                                tag: "Cổ Điển",
-                                desc: "Mở cổng từ vựng, giúp chú cáo vượt chướng ngại vật (3 mạng).",
+                                tag: "Classic",
+                                desc: "Open word gates and help the fox clear obstacles (3 lives).",
                                 accent: Color(red: 0.65, green: 0.93, blue: 0.15)
                             ) {
                                 onSelectChallenge(.colors, .basic, .voiceRunner)
@@ -143,9 +143,9 @@ public struct HomeView: View {
 
                             ModeCard(
                                 emoji: "👅",
-                                title: "Líu Lưỡi (Tongue Twister)",
-                                tag: "Luyện Âm",
-                                desc: "Đọc câu dài líu lưỡi trôi chảy, không ngắt quãng quá 1.5s.",
+                                title: "Tongue Twister",
+                                tag: "Pronunciation",
+                                desc: "Read long tongue twisters fluently without pausing over 1.5s.",
                                 accent: Color.orange
                             ) {
                                 onSelectChallenge(.colors, .medium, .tongueTwister)
@@ -153,9 +153,9 @@ public struct HomeView: View {
 
                             ModeCard(
                                 emoji: "⚡",
-                                title: "Đua Từ 30s (Category Rush)",
-                                tag: "Phản Xạ",
-                                desc: "Nói càng nhiều từ thuộc cùng chủ đề trong 30 giây càng tốt.",
+                                title: "30s Category Rush",
+                                tag: "Reflex",
+                                desc: "Say as many words from one category as you can in 30 seconds.",
                                 accent: Color.cyan
                             ) {
                                 onSelectChallenge(.animals, .basic, .categoryRush)
@@ -167,7 +167,7 @@ public struct HomeView: View {
                     // Danh Sách 12 Chủ Đề Khám Phá
                     VStack(alignment: .leading, spacing: 12) {
                         HStack {
-                            Text("Chủ Đề Từ Vựng")
+                            Text("Vocabulary Topics")
                                 .font(.system(size: 18, weight: .bold))
                                 .foregroundColor(.white)
                             Spacer()
@@ -184,7 +184,7 @@ public struct HomeView: View {
                                             Text(subj.titleVi)
                                                 .font(.system(size: 14, weight: .bold))
                                                 .foregroundColor(.white)
-                                            Text("\(subj.learnersCount) người học")
+                                            Text("\(subj.learnersCount) learners")
                                                 .font(.system(size: 11, weight: .medium))
                                                 .foregroundColor(.white.opacity(0.6))
                                         }

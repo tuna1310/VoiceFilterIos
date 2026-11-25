@@ -47,7 +47,7 @@ public struct ResultView: View {
             ScrollView(showsIndicators: false) {
                 VStack(spacing: 20) {
                     // Header Tiêu đề
-                    Text(result.stars == 3 ? "🎉 XUẤT SẮC!" : (result.stars == 2 ? "👏 RẤT TỐT!" : "💪 CỐ GẮNG LÊN!"))
+                    Text(result.stars == 3 ? "🎉 EXCELLENT!" : (result.stars == 2 ? "👏 GREAT JOB!" : "💪 KEEP GOING!"))
                         .font(.system(size: 28, weight: .black, design: .rounded))
                         .foregroundColor(Color(red: 0.65, green: 0.93, blue: 0.15))
                         .padding(.top, 24)
@@ -64,13 +64,13 @@ public struct ResultView: View {
                     // Thẻ Video Preview phát lại thước phim AR đã ghép Watermark
                     VStack(alignment: .leading, spacing: 8) {
                         HStack {
-                            Text("Thước phim AR hoàn chỉnh:")
+                            Text("Your finished AR clip:")
                                 .font(.system(size: 14, weight: .bold))
                                 .foregroundColor(.white.opacity(0.8))
                             Spacer()
                             HStack(spacing: 4) {
                                 Circle().fill(Color(red: 0.65, green: 0.93, blue: 0.15)).frame(width: 6, height: 6)
-                                Text("Đã gắn Watermark & SFX")
+                                Text("Watermark & SFX applied")
                                     .font(.system(size: 11, weight: .semibold))
                                     .foregroundColor(Color(red: 0.65, green: 0.93, blue: 0.15))
                             }
@@ -91,11 +91,11 @@ public struct ResultView: View {
                     // Lưới Thống kê kết quả
                     VStack(spacing: 12) {
                         HStack(spacing: 12) {
-                            StatBox(title: "Tổng Điểm", value: "\(result.finalScore)", icon: "star.fill", color: .yellow)
-                            StatBox(title: "Từ Đã Vượt", value: "\(result.wordsCompleted)/\(result.totalWords)", icon: "checkmark.circle.fill", color: Color(red: 0.65, green: 0.93, blue: 0.15))
+                            StatBox(title: "Total Score", value: "\(result.finalScore)", icon: "star.fill", color: .yellow)
+                            StatBox(title: "Words Cleared", value: "\(result.wordsCompleted)/\(result.totalWords)", icon: "checkmark.circle.fill", color: Color(red: 0.65, green: 0.93, blue: 0.15))
                         }
                         HStack(spacing: 12) {
-                            StatBox(title: "Độ Chính Xác", value: "\(Int(result.accuracyPercent))%", icon: "target", color: .cyan)
+                            StatBox(title: "Accuracy", value: "\(Int(result.accuracyPercent))%", icon: "target", color: .cyan)
                             StatBox(title: "Combo Max", value: "x\(result.maxCombo)", icon: "flame.fill", color: .orange)
                         }
                     }
@@ -114,7 +114,7 @@ public struct ResultView: View {
 
                     // MARK: - Mục Chia Sẻ Mạng Xã Hội 1-Chạm (Viral One-Tap Sharing)
                     VStack(alignment: .leading, spacing: 10) {
-                        Text("Chia sẻ ngay lên mạng xã hội:")
+                        Text("Share to social media:")
                             .font(.system(size: 13, weight: .bold))
                             .foregroundColor(.white.opacity(0.7))
                             .padding(.horizontal, 20)
@@ -184,7 +184,7 @@ public struct ResultView: View {
                                 } else {
                                     Image(systemName: "square.and.arrow.down.fill")
                                 }
-                                Text(isSaving ? "Đang lưu..." : "Lưu Thư Viện")
+                                Text(isSaving ? "Saving..." : "Save to Library")
                             }
                             .font(.system(size: 15, weight: .bold))
                             .foregroundColor(.white)
@@ -198,7 +198,7 @@ public struct ResultView: View {
                         Button(action: { showShareSheet = true }) {
                             HStack(spacing: 6) {
                                 Image(systemName: "square.and.arrow.up.fill")
-                                Text("Khác...")
+                                Text("More...")
                             }
                             .font(.system(size: 15, weight: .bold))
                             .foregroundColor(.white)
@@ -215,7 +215,7 @@ public struct ResultView: View {
                         Button(action: onPlayAgain) {
                             HStack(spacing: 8) {
                                 Image(systemName: "arrow.counterclockwise")
-                                Text("Chơi Lại")
+                                Text("Play Again")
                             }
                             .font(.system(size: 16, weight: .bold))
                             .foregroundColor(.black)
@@ -226,7 +226,7 @@ public struct ResultView: View {
                         }
 
                         Button(action: onGoHome) {
-                            Text("Về Trang Chủ")
+                            Text("Back to Home")
                                 .font(.system(size: 15, weight: .semibold))
                                 .foregroundColor(.white.opacity(0.8))
                                 .padding(.vertical, 10)
@@ -251,12 +251,12 @@ public struct ResultView: View {
         }
         .alert(isPresented: $showAlert) {
             Alert(
-                title: Text("Chia Sẻ"),
+                title: Text("Share"),
                 message: Text(alertMessage ?? ""),
-                primaryButton: .default(Text("Mở Chia Sẻ Chung")) {
+                primaryButton: .default(Text("Open Share Sheet")) {
                     showShareSheet = true
                 },
-                secondaryButton: .cancel(Text("Đóng"))
+                secondaryButton: .cancel(Text("Close"))
             )
         }
     }
@@ -268,9 +268,9 @@ public struct ResultView: View {
                 self.isSaving = false
                 switch result {
                 case .success:
-                    self.saveMessage = "Đã lưu video thành công vào Thư viện ảnh!"
+                    self.saveMessage = "Video saved to Photo Library!"
                 case .failure(let err):
-                    self.saveMessage = "Lỗi lưu: \(err.localizedDescription)"
+                    self.saveMessage = "Save error: \(err.localizedDescription)"
                 }
             }
         }
@@ -279,7 +279,7 @@ public struct ResultView: View {
     private func shareToInstagram() {
         shareManager.shareToInstagramStories(videoURL: videoURL) { success, errMsg in
             if !success {
-                self.alertMessage = errMsg ?? "Không thể mở Instagram Stories."
+                self.alertMessage = errMsg ?? "Couldn't open Instagram Stories."
                 self.showAlert = true
             }
         }
@@ -288,7 +288,7 @@ public struct ResultView: View {
     private func shareToTikTok() {
         shareManager.shareToTikTok(videoURL: videoURL) { success, errMsg in
             if !success {
-                self.alertMessage = errMsg ?? "Không thể mở TikTok."
+                self.alertMessage = errMsg ?? "Couldn't open TikTok."
                 self.showAlert = true
             }
         }
@@ -297,7 +297,7 @@ public struct ResultView: View {
     private func shareToFacebook() {
         shareManager.shareToFacebookStories(videoURL: videoURL) { success, errMsg in
             if !success {
-                self.alertMessage = errMsg ?? "Không thể mở Facebook Stories."
+                self.alertMessage = errMsg ?? "Couldn't open Facebook Stories."
                 self.showAlert = true
             }
         }

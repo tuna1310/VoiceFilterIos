@@ -223,12 +223,12 @@ public enum CameraManagerError: LocalizedError {
 
     public var errorDescription: String? {
         switch self {
-        case .cameraDeviceNotFound: return "Không tìm thấy thiết bị Camera trên máy."
-        case .audioDeviceNotFound: return "Không tìm thấy thiết bị Microphone."
-        case .cannotAddVideoInput: return "Không thể kết nối video camera vào phiên làm việc."
-        case .cannotAddAudioInput: return "Không thể kết nối audio mic vào phiên làm việc."
-        case .cannotAddVideoOutput: return "Không thể thiết lập cổng xuất video."
-        case .cannotAddAudioOutput: return "Không thể thiết lập cổng xuất audio."
+        case .cameraDeviceNotFound: return "No camera device found."
+        case .audioDeviceNotFound: return "No microphone device found."
+        case .cannotAddVideoInput: return "Couldn't add camera video input to the session."
+        case .cannotAddAudioInput: return "Couldn't add microphone audio input to the session."
+        case .cannotAddVideoOutput: return "Couldn't set up video output."
+        case .cannotAddAudioOutput: return "Couldn't set up audio output."
         }
     }
 }

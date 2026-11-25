@@ -23,17 +23,17 @@ public struct OnboardingView: View {
         OnboardingPage(
             emoji: "🏃‍♂️",
             title: "Voice Runner",
-            subtitle: "Đọc to từ vựng tiếng Anh trên màn hình để mở cổng vượt chướng ngại vật trước khi va chạm!"
+            subtitle: "Read the English words on screen out loud to open gates before you hit the obstacles!"
         ),
         OnboardingPage(
             emoji: "👅",
-            title: "Líu Lưỡi (Tongue Twister)",
-            subtitle: "Rèn luyện độ dẻo của cơ miệng với các câu líu lưỡi dài, giữ nhịp thở và nói liền mạch."
+            title: "Tongue Twister",
+            subtitle: "Train your mouth muscles with long tongue twisters, steady breathing and smooth speech."
         ),
         OnboardingPage(
             emoji: "⚡",
-            title: "Đua Từ 30s (Category Rush)",
-            subtitle: "Kích hoạt phản xạ tự nhiên: Nói càng nhiều từ thuộc cùng chủ đề trong 30 giây càng tốt."
+            title: "30s Category Rush",
+            subtitle: "Boost your reflexes: say as many words from one category as you can in 30 seconds."
         )
     ]
 
@@ -48,7 +48,7 @@ public struct OnboardingView: View {
             VStack(spacing: 32) {
                 HStack {
                     Spacer()
-                    Button("Bỏ qua") {
+                    Button("Skip") {
                         onFinish()
                     }
                     .foregroundColor(.gray)
@@ -86,7 +86,7 @@ public struct OnboardingView: View {
                         onFinish()
                     }
                 }) {
-                    Text(currentPage == pages.count - 1 ? "Bắt Đầu Ngay" : "Tiếp Theo")
+                    Text(currentPage == pages.count - 1 ? "Get Started" : "Next")
                         .font(.system(size: 17, weight: .bold))
                         .foregroundColor(.black)
                         .frame(maxWidth: .infinity)

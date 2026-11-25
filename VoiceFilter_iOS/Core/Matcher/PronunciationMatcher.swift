@@ -132,30 +132,30 @@ public final class PronunciationMatcher {
         let normCandidate = normalize(candidateSpoken)
 
         if normTarget.isEmpty || normCandidate.isEmpty {
-            return MatchResult(isMatched: false, reason: "Chuỗi rỗng")
+            return MatchResult(isMatched: false, reason: "Empty string")
         }
 
         // Bước 1: So khớp chính xác 100%
         if normTarget == normCandidate {
-            return MatchResult(isMatched: true, reason: "Khớp chính xác (Exact match)")
+            return MatchResult(isMatched: true, reason: "Exact match")
         }
 
         // Bước 2: So khớp Accepted Variants
         let variants = target.acceptedVariants.map { normalize($0) }
         if variants.contains(normCandidate) {
-            return MatchResult(isMatched: true, reason: "Khớp biến thể được chấp nhận (Accepted variant)")
+            return MatchResult(isMatched: true, reason: "Accepted variant match")
         }
 
         // Bước 3: So khớp nhóm viết tắt (Contractions)
         for group in contractionGroups {
             if group.contains(normTarget) && group.contains(normCandidate) {
-                return MatchResult(isMatched: true, reason: "Khớp dạng viết tắt tương đương")
+                return MatchResult(isMatched: true, reason: "Equivalent contraction match")
             }
         }
 
         // Bước 4: So khớp Từ đồng âm (Homophones)
         if let homos = homophones[normTarget], homos.contains(normCandidate) {
-            return MatchResult(isMatched: true, reason: "Khớp từ đồng âm (Homophone)")
+            return MatchResult(isMatched: true, reason: "Homophone match")
         }
 
         // Bước 5: Chặn cặp từ tối thiểu (Minimal Pair Check) ở cấp độ khó
@@ -163,7 +163,7 @@ public final class PronunciationMatcher {
             for (ruleWord, ruleLevel) in rules {
                 if normCandidate == ruleWord {
                     if (level == .advanced && ruleLevel == .advanced) || (level == .medium && ruleLevel == .medium) {
-                        return MatchResult(isMatched: false, reason: "Chặn nhầm cặp âm tối thiểu (\(normTarget) vs \(ruleWord)) ở cấp độ \(level.displayName)")
+                        return MatchResult(isMatched: false, reason: "Blocked minimal-pair confusion (\(normTarget) vs \(ruleWord)) at level \(level.displayName)")
                     }
                 }
             }
@@ -172,7 +172,7 @@ public final class PronunciationMatcher {
         // Bước 6: Cặp âm gần giống (Near Phonetic) ở cấp độ Dễ/Vừa
         if level != .advanced {
             if let nearSet = nearPhoneticPairs[normTarget], nearSet.contains(normCandidate) {
-                return MatchResult(isMatched: true, reason: "Khớp cặp âm gần đúng ở cấp độ \(level.displayName)")
+                return MatchResult(isMatched: true, reason: "Approximate minimal-pair match at level \(level.displayName)")
             }
         }
 
@@ -191,10 +191,10 @@ public final class PronunciationMatcher {
         if metaMatch {
             if level.requiresLevenshteinOnPhoneticMatch {
                 if levRatio >= level.minimumLevenshteinThreshold {
-                    return MatchResult(isMatched: true, reason: "Khớp Double Metaphone + Levenshtein đạt chuẩn \(Int(levRatio * 100))%")
+                    return MatchResult(isMatched: true, reason: "Double Metaphone + Levenshtein match at \(Int(levRatio * 100))%")
                 }
             } else {
-                return MatchResult(isMatched: true, reason: "Khớp ngữ âm Double Metaphone")
+                return MatchResult(isMatched: true, reason: "Double Metaphone phonetic match")
             }
         }
 
@@ -204,16 +204,16 @@ public final class PronunciationMatcher {
 
         if !targetSoundex.isEmpty && targetSoundex == candSoundex {
             if level != .advanced || levRatio >= level.minimumLevenshteinThreshold {
-                return MatchResult(isMatched: true, reason: "Khớp Soundex (\(targetSoundex))")
+                return MatchResult(isMatched: true, reason: "Soundex match (\(targetSoundex))")
             }
         }
 
         // Bước 9: Ngưỡng tương đồng Levenshtein
         if levRatio >= level.minimumLevenshteinThreshold {
-            return MatchResult(isMatched: true, reason: "Độ tương đồng Levenshtein đạt \(Int(levRatio * 100))% (>= \(Int(level.minimumLevenshteinThreshold * 100))%)")
+            return MatchResult(isMatched: true, reason: "Levenshtein similarity \(Int(levRatio * 100))% (>= \(Int(level.minimumLevenshteinThreshold * 100))%)")
         }
 
         // Bước 10: Không đạt
-        return MatchResult(isMatched: false, reason: "Không khớp (Tương đồng: \(Int(levRatio * 100))% < \(Int(level.minimumLevenshteinThreshold * 100))%)")
+        return MatchResult(isMatched: false, reason: "No match (similarity: \(Int(levRatio * 100))% < \(Int(level.minimumLevenshteinThreshold * 100))%)")
     }
 }

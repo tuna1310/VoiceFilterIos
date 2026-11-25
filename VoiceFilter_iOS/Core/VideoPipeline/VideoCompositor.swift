@@ -54,10 +54,10 @@ public enum VideoCompositorError: LocalizedError {
 
     public var errorDescription: String? {
         switch self {
-        case .invalidSourceAsset: return "File video nguồn không hợp lệ hoặc không tồn tại."
-        case .noVideoTrackFound: return "Không tìm thấy track video trong file đã quay."
-        case .exportSessionFailed(let msg): return "Xuất video thất bại: \(msg)"
-        case .cancelled: return "Tiến trình kết xuất video đã bị hủy."
+        case .invalidSourceAsset: return "Source video file is invalid or missing."
+        case .noVideoTrackFound: return "No video track found in the recorded file."
+        case .exportSessionFailed(let msg): return "Video export failed: \(msg)"
+        case .cancelled: return "Video rendering was cancelled."
         }
     }
 }
@@ -298,7 +298,7 @@ public final class VideoCompositor {
 
             case .gatePass:
                 let successLayer = createResultBadgeLayer(
-                    text: "✓ CHÍNH XÁC (+10)",
+                    text: "✓ CORRECT (+10)",
                     bgColor: UIColor(red: 0.2, green: 0.8, blue: 0.2, alpha: 0.9),
                     renderWidth: width,
                     renderHeight: height
@@ -308,7 +308,7 @@ public final class VideoCompositor {
 
             case .gateCrash, .wordTimeout:
                 let missLayer = createResultBadgeLayer(
-                    text: "✗ BỎ LỠ (-1 TIM)",
+                    text: "✗ MISSED (-1 HEART)",
                     bgColor: UIColor(red: 0.9, green: 0.2, blue: 0.2, alpha: 0.9),
                     renderWidth: width,
                     renderHeight: height
@@ -359,7 +359,7 @@ public final class VideoCompositor {
         // Chữ chính
         let textLayer = CATextLayer()
         textLayer.frame = CGRect(x: 16, y: 30, width: badgeWidth - 32, height: 26)
-        textLayer.string = "🎙️ Nói Chuẩn AR"
+        textLayer.string = "🎙️ Speak Right AR"
         textLayer.fontSize = 18
         textLayer.font = UIFont.boldSystemFont(ofSize: 18)
         textLayer.foregroundColor = UIColor.white.cgColor
@@ -394,7 +394,7 @@ public final class VideoCompositor {
 
         let scoreText = CATextLayer()
         scoreText.frame = CGRect(x: 10, y: 12, width: hudWidth - 20, height: 28)
-        scoreText.string = "⭐ \(finalScore) ĐIỂM"
+        scoreText.string = "⭐ \(finalScore) PTS"
         scoreText.fontSize = 16
         scoreText.font = UIFont.boldSystemFont(ofSize: 16)
         scoreText.foregroundColor = UIColor(red: 1.0, green: 0.84, blue: 0.0, alpha: 1.0).cgColor
@@ -501,7 +501,7 @@ public final class VideoCompositor {
 
         let titleText = CATextLayer()
         titleText.frame = CGRect(x: 10, y: 60, width: cardWidth - 20, height: 32)
-        titleText.string = result.stars >= 2 ? "🎉 THỬ THÁCH HOÀN THÀNH!" : "💪 CỐ GẮNG LẦN SAU!"
+        titleText.string = result.stars >= 2 ? "🎉 CHALLENGE COMPLETE!" : "💪 TRY AGAIN NEXT TIME!"
         titleText.fontSize = 20
         titleText.font = UIFont.boldSystemFont(ofSize: 20)
         titleText.foregroundColor = UIColor.white.cgColor
@@ -511,7 +511,7 @@ public final class VideoCompositor {
 
         let scoreText = CATextLayer()
         scoreText.frame = CGRect(x: 10, y: 20, width: cardWidth - 20, height: 30)
-        scoreText.string = "TỔNG ĐIỂM: \(result.finalScore) • CHÍNH XÁC: \(Int(result.accuracyPercent))%"
+        scoreText.string = "TOTAL SCORE: \(result.finalScore) • ACCURACY: \(Int(result.accuracyPercent))%"
         scoreText.fontSize = 15
         scoreText.font = UIFont.systemFont(ofSize: 15, weight: .semibold)
         scoreText.foregroundColor = UIColor(red: 0.65, green: 0.93, blue: 0.15, alpha: 1.0).cgColor
@@ -632,7 +632,7 @@ public final class VideoCompositor {
             presetName: AVAssetExportPresetHighestQuality
         ) else {
             DispatchQueue.main.async {
-                completion(.failure(VideoCompositorError.exportSessionFailed("Không thể khởi tạo AVAssetExportSession.")))
+                completion(.failure(VideoCompositorError.exportSessionFailed("Couldn't create AVAssetExportSession.")))
             }
             return
         }
@@ -650,13 +650,13 @@ public final class VideoCompositor {
                     print("[VideoCompositor] Render video with Watermark & SFX successful: \(outputURL.path)")
                     completion(.success(outputURL))
                 case .failed:
-                    let err = exportSession.error ?? VideoCompositorError.exportSessionFailed("Lỗi không xác định.")
+                    let err = exportSession.error ?? VideoCompositorError.exportSessionFailed("Unknown error.")
                     print("[VideoCompositor] Export failed: \(err.localizedDescription)")
                     completion(.failure(err))
                 case .cancelled:
                     completion(.failure(VideoCompositorError.cancelled))
                 default:
-                    completion(.failure(VideoCompositorError.exportSessionFailed("Trạng thái: \(exportSession.status.rawValue)")))
+                    completion(.failure(VideoCompositorError.exportSessionFailed("Status: \(exportSession.status.rawValue)")))
                 }
             }
         }

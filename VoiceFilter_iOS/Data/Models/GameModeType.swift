@@ -17,8 +17,8 @@ public enum GameModeType: String, CaseIterable, Codable, Identifiable {
     public var titleVi: String {
         switch self {
         case .voiceRunner: return "Voice Runner"
-        case .tongueTwister: return "Líu Lưỡi (Tongue Twister)"
-        case .categoryRush: return "Đua Từ 30s (Category Rush)"
+        case .tongueTwister: return "Tongue Twister"
+        case .categoryRush: return "30s Category Rush"
         }
     }
 
@@ -33,11 +33,11 @@ public enum GameModeType: String, CaseIterable, Codable, Identifiable {
     public var descriptionVi: String {
         switch self {
         case .voiceRunner:
-            return "Đọc nhanh các từ đang lao tới để mở cổng và giúp chú cáo vượt chướng ngại vật (3 mạng)."
+            return "Quickly read the incoming words to open gates and help the fox clear obstacles (3 lives)."
         case .tongueTwister:
-            return "Thử thách phát âm câu dài líu lưỡi với nhịp đọc trôi chảy, không ngắt quãng quá 1.5s."
+            return "Pronounce long tongue twisters fluently without pausing more than 1.5s."
         case .categoryRush:
-            return "Nói càng nhiều từ thuộc cùng chủ đề trong 30 giây càng tốt, không trùng lặp từ."
+            return "Say as many words from the same category as you can in 30 seconds, without repeats."
         }
     }
 
@@ -51,9 +51,9 @@ public enum GameModeType: String, CaseIterable, Codable, Identifiable {
 
     public var tag: String {
         switch self {
-        case .voiceRunner: return "Cổ điển"
-        case .tongueTwister: return "Luyện âm"
-        case .categoryRush: return "Phản xạ"
+        case .voiceRunner: return "Classic"
+        case .tongueTwister: return "Pronunciation"
+        case .categoryRush: return "Reflex"
         }
     }
 

@@ -32,9 +32,9 @@ public enum DifficultyLevel: String, CaseIterable, Codable, Identifiable {
 
     public var displayName: String {
         switch self {
-        case .basic: return "Dễ (Basic)"
-        case .medium: return "Vừa (Medium)"
-        case .advanced: return "Khó (Advanced)"
+        case .basic: return "Basic"
+        case .medium: return "Medium"
+        case .advanced: return "Advanced"
         }
     }
 

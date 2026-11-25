@@ -81,7 +81,7 @@ public struct SubjectDetailView: View {
                         .font(.system(size: 26, weight: .black, design: .rounded))
                         .foregroundColor(.white)
 
-                    Text("\(subject.titleEn) • \(subject.learnersCount) người luyện tập")
+                    Text("\(subject.titleEn) • \(subject.learnersCount) learners")
                         .font(.system(size: 13, weight: .medium))
                         .foregroundColor(.white.opacity(0.8))
                 }
@@ -144,7 +144,7 @@ public struct SubjectDetailView: View {
 
         return VStack(alignment: .leading, spacing: 12) {
             HStack {
-                Text("Danh Sách Từ Vựng (\(words.count) từ)")
+                Text("Word List (\(words.count) words)")
                     .font(.system(size: 16, weight: .bold))
                     .foregroundColor(.white)
                 Spacer()
@@ -197,7 +197,7 @@ public struct SubjectDetailView: View {
             }) {
                 HStack(spacing: 8) {
                     Image(systemName: "camera.fill")
-                    Text("Bắt Đầu Thử Thách AR")
+                    Text("Start AR Challenge")
                 }
                 .font(.system(size: 16, weight: .bold))
                 .foregroundColor(.black)

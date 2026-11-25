@@ -64,9 +64,9 @@ public enum PhotoExportError: LocalizedError {
 
     public var errorDescription: String? {
         switch self {
-        case .fileNotFound: return "Không tìm thấy file video MP4 cần lưu."
-        case .permissionDenied: return "Chưa cấp quyền lưu video vào Thư viện ảnh."
-        case .saveFailed: return "Lưu video vào Thư viện ảnh thất bại."
+        case .fileNotFound: return "MP4 video file to save was not found."
+        case .permissionDenied: return "Permission to save videos to the Photo Library was not granted."
+        case .saveFailed: return "Failed to save video to the Photo Library."
         }
     }
 }

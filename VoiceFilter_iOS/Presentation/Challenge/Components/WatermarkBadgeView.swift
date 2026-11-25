@@ -15,10 +15,10 @@ public struct WatermarkBadgeView: View {
             Text("🎙️")
                 .font(.system(size: 13))
             VStack(alignment: .leading, spacing: 0) {
-                Text("Nói Chuẩn")
+                Text("Speak Right")
                     .font(.system(size: 11, weight: .black, design: .rounded))
                     .foregroundColor(.white)
-                Text("Thử Thách Phát Âm")
+                Text("Pronunciation Challenge")
                     .font(.system(size: 8, weight: .bold))
                     .foregroundColor(Color(red: 0.65, green: 0.93, blue: 0.15))
             }

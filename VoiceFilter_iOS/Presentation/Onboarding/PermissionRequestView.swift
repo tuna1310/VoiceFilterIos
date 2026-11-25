@@ -61,7 +61,7 @@ public struct PermissionRequestView: View {
                         .foregroundColor(.white)
                         .multilineTextAlignment(.center)
 
-                    Text("Để bắt đầu thử thách phát âm bằng camera filter vui nhộn, ứng dụng cần một số quyền truy cập:")
+                    Text("To start the fun camera-filter pronunciation challenge, the app needs a few permissions:")
                         .font(.system(size: 15, weight: .regular))
                         .foregroundColor(.gray)
                         .multilineTextAlignment(.center)
@@ -72,8 +72,8 @@ public struct PermissionRequestView: View {
                 VStack(spacing: 14) {
                     permissionRow(
                         icon: "camera.fill",
-                        title: "Camera trước",
-                        desc: "Hiển thị khuôn mặt bạn cùng hiệu ứng đường chạy 3D và ghi video.",
+                        title: "Front Camera",
+                        desc: "Shows your face with the 3D runway effect and records video.",
                         isAuthorized: permissionManager.isCameraAuthorized,
                         isDenied: permissionManager.cameraStatus == .denied
                     )
@@ -81,15 +81,15 @@ public struct PermissionRequestView: View {
                     permissionRow(
                         icon: "mic.fill",
                         title: "Microphone",
-                        desc: "Ghi âm giọng đọc tiếng Anh của bạn và lưu vào video.",
+                        desc: "Records your English speech and saves it into the video.",
                         isAuthorized: permissionManager.isMicrophoneAuthorized,
                         isDenied: permissionManager.microphoneStatus == .denied
                     )
 
                     permissionRow(
                         icon: "waveform.badge.magnifyingglass",
-                        title: "Nhận diện giọng nói",
-                        desc: "Chấm điểm và nhận diện từ vựng on-device không cần gửi ra ngoài.",
+                        title: "Speech Recognition",
+                        desc: "Scores and recognizes words on-device without sending data out.",
                         isAuthorized: permissionManager.isSpeechAuthorized,
                         isDenied: permissionManager.speechStatus == .denied
                     )
@@ -106,7 +106,7 @@ public struct PermissionRequestView: View {
                         }) {
                             HStack {
                                 Image(systemName: "gearshape.fill")
-                                Text("Mở Cài đặt hệ thống")
+                                Text("Open System Settings")
                                     .fontWeight(.bold)
                             }
                             .frame(maxWidth: .infinity)
@@ -117,7 +117,7 @@ public struct PermissionRequestView: View {
                             .shadow(color: .orange.opacity(0.3), radius: 10, y: 5)
                         }
 
-                        Text("Một hoặc nhiều quyền đã bị từ chối trước đó. Vui lòng bật lại trong Cài đặt để tiếp tục.")
+                        Text("One or more permissions were previously denied. Please enable them in Settings to continue.")
                             .font(.caption)
                             .foregroundColor(.orange.opacity(0.8))
                             .multilineTextAlignment(.center)
@@ -131,7 +131,7 @@ public struct PermissionRequestView: View {
                             }
                         }) {
                             HStack {
-                                Text("Cấp quyền & Bắt đầu")
+                                Text("Grant Access & Start")
                                     .fontWeight(.bold)
                                 Image(systemName: "arrow.right")
                             }
@@ -192,7 +192,7 @@ public struct PermissionRequestView: View {
                     .foregroundColor(.red)
                     .font(.system(size: 20))
             } else {
-                Text("Cần cấp")
+                Text("Required")
                     .font(.system(size: 11, weight: .semibold))
                     .foregroundColor(.blue)
                     .padding(.horizontal, 8)
